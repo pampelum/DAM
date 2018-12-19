@@ -1,0 +1,25 @@
+package shared_memory;
+
+public class Main extends Thread {
+	   	int var = 1;
+	
+	   	public void run(){
+	   		System.out.println("var from " + Thread.currentThread().getName() + " is " + var);
+	   		var++;
+	   	}
+	
+	   	public static void main(String[] args) {
+	   		Main obj = new Main();
+	
+	   		Thread t0 = new Thread(obj);
+	   		Thread t1 = new Thread(obj);
+	   		Thread t2 = new Thread(obj);
+	   		Thread t3 = new Thread(obj);
+	
+	   		t0.start();
+	   		t1.start();
+	   		t2.start();
+	   		t3.start();
+	   }
+}
+

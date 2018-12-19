@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change method &apos;public static void Main.executarLlista(Thread[] arrayThreads)&apos; to &apos;public static void startThreads(Thread[] arrayThreads)&apos;&#x0D;&#x0A;- Original project: &apos;M9-U2-002&apos;&#x0D;&#x0A;- Original element: &apos;Main.executarLlista(...)&apos;&#x0D;&#x0A;- New name: &apos;startThreads&apos;" delegate="false" deprecate="true" description="Change method &apos;executarLlista&apos;" flags="589830" id="org.eclipse.jdt.ui.change.method.signature" input="/src&lt;{Main.java[Main~executarLlista~\[QThread;" name="startThreads" parameter1="Thread[] arrayThreads 0 Thread[] arrayThreads false" stamp="1538674046272" version="1.0"/>
+</session>

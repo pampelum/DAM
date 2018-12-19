@@ -1,0 +1,44 @@
+package examenFitxers;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.CharBuffer;
+import java.util.Scanner;
+
+public class Exercici3_examen {
+
+	public static void main(String[] args) throws IOException {
+		final int diferencia = (int)('a') - (int)('A');
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introdueix la ruta: ");
+		String ruta = sc.next()+"\\invertirMinMay.txt";
+		File file = new File(ruta);		//Instanciar fitxer
+		FileWriter fw = new FileWriter(file);
+		FileReader fr = new FileReader(file);
+		
+		String frase;
+		CharBuffer cbFrase = null;
+		char[] cFrase;
+		
+		if(file.canWrite() == false){	//Error de permisos
+			System.out.println("No es pot escriure al fitxer");
+		}
+		
+		frase = sc.next();
+		fw.write(frase);
+		
+		fw.flush();
+		fw.close();
+		
+		fr.read(cbFrase);
+		cFrase = cbFrase.array();
+		
+		for(int i = 0; i < cFrase.length; i++) {
+			System.out.println(cFrase[i]);
+		}
+		
+	}
+
+}

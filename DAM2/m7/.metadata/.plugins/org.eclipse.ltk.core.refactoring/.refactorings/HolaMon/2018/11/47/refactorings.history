@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;label1&apos; in &apos;application.Main&apos; to &apos;lblHello&apos;&#x0D;&#x0A;- Original project: &apos;HolaMon&apos;&#x0D;&#x0A;- Original element: &apos;application.Main.label1&apos;&#x0D;&#x0A;- Renamed element: &apos;application.Main.lblHello&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;label1&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;application{Main.java[Main^label1" name="lblHello" references="true" setter="false" stamp="1542985518152" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,61 @@
+import javafx.scene.control.*;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
+
+
+public class Main extends Application {
+	
+	TextField txtName = new TextField();
+	TextField txtTlfn = new TextField();
+	
+	@Override
+	public void start(Stage primaryStage) {
+		try {
+			VBox root = new VBox();
+
+			
+			txtName.setPromptText("Insert your name");
+			txtTlfn.setPromptText("Introduce your telephone");
+		
+
+			root.getChildren().addAll(txtName,txtTlfn);
+			
+			
+			txtName.addEventFilter(KeyEvent.KEY_TYPED, e-> {
+				if(!e.getCharacter().matches("[A-Z]*[a-z]*[ ]*"))
+				{
+					e.consume();
+				}
+			});
+			
+			txtTlfn.addEventFilter(KeyEvent.KEY_TYPED, e-> {
+				if(!e.getCharacter().matches("[0-9]{0-9}"))
+				{
+					e.consume();
+				}
+			});
+			
+			
+			//crear escena
+			Scene scene = new Scene(root,400,400);
+			
+			//afegir escena
+			primaryStage.setScene(scene);
+			
+			//mostrar la finestra
+			primaryStage.show();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

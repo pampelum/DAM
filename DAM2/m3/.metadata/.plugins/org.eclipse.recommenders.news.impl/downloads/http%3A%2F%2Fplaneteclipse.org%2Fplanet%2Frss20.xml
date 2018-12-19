@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/INyihbgYe10/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/INyihbgYe10/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy</link>
+	<description>The Eclipse Foundation recently made available a new policy to make sure that our projects and hosted services are compliant with the General Data Protection Regulation (GDPR).&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/INyihbgYe10&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 08 Nov 2018 16:15:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Specification Process, Part I: The EDP</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/5HGN_wF93N8/eclipse-foundation-specification-process-part-i-edp</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/5HGN_wF93N8/eclipse-foundation-specification-process-part-i-edp</link>
+	<description>A quick Eclipse Development Process (EDP) primer.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/5HGN_wF93N8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 08 Nov 2018 16:15:00 +0000</pubDate>
+</item>
+<item>
+	<title>Christopher Guindon: Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy</title>
+	<guid isPermaLink="true">https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/</guid>
+	<link>https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/</link>
+	<description>&lt;p&gt;The Eclipse Foundation recently made available a new &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;policy&lt;/a&gt;
+to make sure that our projects and hosted services are compliant with
+the General Data Protection Regulation (GDPR).&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt; will provide guidance to folks who operate a virtual server or a website hosted either directly
+by the Eclipse Foundation or provided via the Eclipse Foundation’s funding in support
+of an Eclipse Foundation open source project.&lt;/p&gt;
+
+&lt;p&gt;We want to ensure that all such services meet the highest standards of privacy and transparency,
+and to ensure that any collected data is used strictly in support of the activities of its open source projects.&lt;/p&gt;
+
+&lt;p&gt;There are two changes that we would like to highlight. First &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=534384#c6&quot;&gt;we have updated our position&lt;/a&gt;
+on &lt;a href=&quot;https://analytics.google.com/analytics/web/&quot;&gt;Google Analytics (GA)&lt;/a&gt;. Projects will now be allowed to create their own GA property,
+provided they agree to the conditions listed in our new &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Secondly we are better defining the responsibilities of the projects or committers
+responsible for hosting a service or website with the Eclipse Foundation.&lt;/p&gt;
+
+&lt;p&gt;Hosted services and Eclipse Projects can adopt this new policy by creating an issue on Eclipse Bugzilla under &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&amp;amp;component=Hosted%20Services%20Privacy%20and%20Acceptable%20Usage%20Policy&quot;&gt;Community &amp;gt; Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt;
+where they acknowledge reading and understanding the policy.&lt;/p&gt;
+
+&lt;p&gt;Those who wish to store Personally Identifiable Information (PII) must create and include a Data Protection Impact Assessment (DPIA) document.
+The DPIA must describe what kinds of PII data will be collected and their purpose. This will have to be updated as your services evolve by
+uploading a new version on Eclipse Bugzilla.&lt;/p&gt;
+
+&lt;p&gt;If a service wishes to retain PII for longer than 1 year, they must produce a &lt;a href=&quot;https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/data-retention-policy-template.pdf&quot;&gt;Data
+Retention Policy (DRP)&lt;/a&gt; that indicates how long they plan to keep each pieces of PII data
+and why they need to keep them for that long.&lt;/p&gt;
+
+&lt;p&gt;For the complete list of requirements &amp;amp; conditions, please make sure to read the &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please let us know if you have any questions or concerns regarding this new policy by sending
+your questions to &lt;a href=&quot;mailto:privacy@eclipse.org&quot;&gt;privacy@eclipse.org&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 07 Nov 2018 20:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Eclipse Foundation Specification Process, Part I: The EDP</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5454</guid>
+	<link>https://waynebeaton.wordpress.com/2018/11/07/eclipse-foundation-specification-process-part-i-the-edp/</link>
+	<description>&lt;p&gt;The Eclipse Foundation Specification Process (EFSP) was authored as an extension to the &lt;a href=&quot;https://www.eclipse.org/projects/dev_process&quot;&gt;Eclipse Development Process&lt;/a&gt; (EDP). With this in mind, before we can discuss the EFSP, we’ll start with a quick EDP primer.&lt;/p&gt;
+&lt;p&gt;At a high (and very simplified) level, the EDP looks a little something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;edp_lifecycle&quot; class=&quot;alignnone size-full wp-image-5457 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/11/edp_lifecycle1.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;All open source projects at the Eclipse Foundation &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#starting&quot;&gt;start life&lt;/a&gt; as a &lt;em&gt;proposal&lt;/em&gt;. A proposal literally proposes the creation of a new open source project: the proposal document suggests a name for the new project, and defines many things, including a description and scope of work. The proposal also serves as the nomination and election of all project committers and project leads.&lt;/p&gt;
+&lt;p&gt;The proposal is posted for community feedback for a minimum of two weeks; during that time, the Eclipse Foundation staff works behind the scenes to ensure that the project’s name can be claimed as a trademark, a mentor has been identified, the licensing scheme works, and more. The community feedback period ends with a &lt;em&gt;creation review&lt;/em&gt; which lasts for a minimum of one week. The creation review is the last opportunity for the community and the members of the Eclipse Foundation to provide feedback and express concerns regarding the project.&lt;/p&gt;
+&lt;p&gt;After successful completion of the creation review, and the project resources have been provisioned by the Eclipse Webmaster team, the project team engages in development. Project &lt;em&gt;committers&lt;/em&gt; push code to into the project’s source code repositories, and produce and disseminate &lt;em&gt;milestone&lt;/em&gt; (snapshot) builds to solicit feedback as part of an iterative development process.&lt;/p&gt;
+&lt;p&gt;When the time comes to deliver a formal &lt;em&gt;release&lt;/em&gt;, the project team produces release candidates and engages in a &lt;em&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#release-review&quot;&gt;release review&lt;/a&gt;&lt;/em&gt;. A release review provides an opportunity for the project team to demonstrate to their &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#4_6_1_PMC&quot;&gt;Project Management Committee&lt;/a&gt; (PMC) that their content is ready for release, work with the Eclipse Intellectual Property Team to ensure that all of the required IP due diligence has been completed successfully, and give the community and membership a final opportunity provide feedback and express concerns. Following a successful release review, the project team will push out their final (GA) build and announce the official release to their community via established channels.&lt;/p&gt;
+&lt;p&gt;The proposal serves as the first plan for the new open source project. Subsequent releases start with the creation of some sort of plan before reengaging in the development (release) cycle. The level of formality in the planning process varies by project. For many projects, the plan is little more than an acknowledgement that further development is needed. But for some projects, planning is a well-defined open process by which the committers work with their communities to identify themes and issues that will be addressed by the release.&lt;/p&gt;
+&lt;p&gt;In my next post, I’ll discuss how this process is extended by the the EFSP. Then, I’ll start digging into the details.&lt;/p&gt;
+&lt;p&gt;You can find the community draft of the Eclipse Foundation Specification Process &lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit?usp=sharing&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 07 Nov 2018 15:47:44 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Updating Contributor and Committer Agreements</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/LSGG8KaWokY/new-eclipse-foundation-committer-and-contributor-agreements</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/LSGG8KaWokY/new-eclipse-foundation-committer-and-contributor-agreements</link>
+	<description>See Mike Milinkovich's blog explaining the upcoming changes to these agreements and what steps are being taken to implement the update&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/LSGG8KaWokY&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Nov 2018 19:15:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: New Eclipse Foundation Committer and Contributor Agreements</title>
+	<guid isPermaLink="false">http://eclipse-foundation.blog/?p=1470</guid>
+	<link>https://eclipse-foundation.blog/2018/11/05/new-eclipse-foundation-committer-and-contributor-agreements/</link>
+	<description>&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; to see redline versions of the changes to the documents discussed below, please visit this &lt;a href=&quot;https://eclipse-foundation.blog/contribution-committer-agreements/&quot;&gt;contribution and committer agreements&lt;/a&gt; page.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Over my almost 15 years of sharing updates about what’s going on at Eclipse, some blogs are more important than others.  &lt;b&gt;This one is important&lt;/b&gt; &lt;b&gt;as it requires action by our members, committers, and contributors&lt;/b&gt;!  There is a lot of ground to cover explaining what’s going on and why we’re changing things, so please forgive me for a longer than normal post.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;tl;dr.  The Eclipse Foundation is starting to develop specifications. First for Jakarta EE, but soon for other areas as well. We want to make it clear that contributions to our open source projects may someday be used to create a specification, because we believe in code-first innovation. We also believe that if you’re contributing to open source, you &lt;i&gt;want &lt;/i&gt;your contributions to be used for open purposes, including specs.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;We are updating our standard contributor and committer agreements, and we will be requiring all our committers and contributors, as well as those members who have member committer agreements,  to re-sign their agreement with us.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;To make this happen, we will be reaching out to everyone who needs to re-sign.  You don’t have to do anything yet – just be aware the change is coming, and please act when we do make contact with you.&lt;/p&gt;
+&lt;p&gt;First, a bit of background.  All contributions and commits made to any Eclipse Foundation project are covered by one of three distinct agreements – the &lt;a href=&quot;http://www.eclipse.org/legal/committer_process/EclipseMemberCommitterAgreementFinal.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Member Committer Agreement&lt;/a&gt;, the &lt;a href=&quot;http://www.eclipse.org/legal/committer_process/EclipseIndividualCommitterAgreementFinal.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Individual Committer Agreement&lt;/a&gt;, or the &lt;a href=&quot;http://www.eclipse.org/legal/ECA.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Contributor Agreement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These agreements basically say that if you contribute to an Eclipse project, your contributions are being made under the license of the project. That license is usually the Eclipse Public License, but about 20% of our projects using additional or alternate licenses such as the Apache License, BSD, or MIT. It is important to note that the way things work at the Eclipse Foundation, the Foundation itself does not acquire any rights to the contributions. This is very different from other organizations like the FSF, OpenJDK, or the Apache Software Foundation. Eclipse uses a licensing model sometimes referred to as symmetrical inbound/outbound licensing, where contributors license their code directly to the users (recipients) of their contributions. Our approach requires us to ensure that all of our contribution agreements provide all necessary grants because we at the EF don’t have any rights to re-license contributions.&lt;/p&gt;
+&lt;p&gt;As most are aware, Eclipse is now about to start hosting specifications as open source projects.  This is very exciting for us, and we think it represents a new opportunity for creating innovative specifications using a vendor neutral process.  The first specification projects will be a part of the Jakarta EE initiative, but we expect other specification projects to follow shortly.&lt;/p&gt;
+&lt;p&gt;Everyone expected to re-sign one of these is encouraged to ensure they understand the details of the agreements and to seek their own legal advice. However, the change we have made is basically to ensure the copyrights in contributions to Eclipse projects may be used in specifications as well. (For the lawyers in the crowd, please note that these additional grants do &lt;i&gt;not &lt;/i&gt;include patents.) We certainly expect that our committers and contributors are fine with this concept. In fact, I assume that most folks would have expected that this was already obvious when they contributed to an open source project. To that, all I can say is….ahhhh…the lawyers made us do it.&lt;/p&gt;
+&lt;p&gt;The new agreements are &lt;a href=&quot;http://www.eclipse.org/legal/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;already posted&lt;/a&gt;, so they are in immediate effect for new contributors and committers. Since we need to overhaul our contribution agreements, we are also taking this opportunity to fix a few things. In particular, our committers will know that up until now they’ve been required to be covered by both a committer agreement and the ECA. We’re going to fix that, so if you sign an Individual Committer Agreement, or are covered by your employer’s Member Committer Agreement, you will no longer have to personally sign an ECA. We are also going to implementing electronic signatures for ICAs using HelloSign. So going forward there is going to be a little less paper involved in being a committer. Yay!&lt;/p&gt;
+&lt;p&gt;We’re sensitive that asking our contributors and committers to ‘update their paperwork’, especially if they’re not working on a specification, is – well, a pain in the backside.  But we’re hoping everyone will be supportive and understanding, and recognize that we take IP very seriously, and it’s one of the real value propositions of working with Eclipse.&lt;/p&gt;
+&lt;p&gt;Contributors who have an ECA will see them revoked over the coming months, and will be asked to re-sign the new one. We will be starting first with the contributors to the EE4J projects, since they are the ones who are most likely to have contributions flowing into Jakarta EE specifications.&lt;/p&gt;
+&lt;p&gt;Executing this change represents a massive effort for our team, as it literally means updating hundreds of committer agreements.  Our staff will be emailing individually each individual and member company needing to update their agreement with us, but we will be spread it over a period of the next few months.  So don’t be surprised if you don’t get an email for a while – we will get to everyone as soon as we can.&lt;/p&gt;
+&lt;p&gt;Stay tuned for emails on this subject that will be sent to our various mailing lists with more details.  If you have questions, feel free to reach out to us at &lt;a href=&quot;mailto:license@eclipse.org&quot;&gt;license@eclipse.org &lt;/a&gt;and we’ll do our best to provide answers.&lt;/p&gt;
+&lt;p&gt;I thank our entire community in advance for accommodating this significant change.  We are excited about the Eclipse Foundation hosting an even more vibrant collection of projects, and believe hosting open source specification projects is a great step forward in our evolution!&lt;/p&gt;</description>
+	<pubDate>Mon, 05 Nov 2018 18:27:49 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Publishes MicroProfile eBook</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/tlSWgOAI3c4/Eclipse-Foundation-Publishes-MicroProfile-eBook.html</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/tlSWgOAI3c4/Eclipse-Foundation-Publishes-MicroProfile-eBook.html</link>
+	<description>15 page executive guide sets context for enterprises evaluating MicroProfile &amp;amp; enterprise Java microservices for digital transformation&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/tlSWgOAI3c4&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Nov 2018 16:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Participate in the 2018 Eclipse Foundation Brand Survey</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/ZBGpN8epIaA/participate-2018-eclipse-foundation-brand-survey</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/ZBGpN8epIaA/participate-2018-eclipse-foundation-brand-survey</link>
+	<description>We are excited to launch the 2018 edition of our brand survey!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/ZBGpN8epIaA&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Nov 2018 15:45:00 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: Halloween Kata Solutions</title>
+	<guid isPermaLink="false">https://medium.com/p/36f6d92ac736</guid>
+	<link>https://medium.com/@donraab/halloween-kata-solutions-36f6d92ac736?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Here are my solutions to the &lt;a href=&quot;https://medium.com/@donraab/trick-or-treat-a-halloween-kata-d469e1400d48&quot;&gt;Halloween Kata&lt;/a&gt; using &lt;a href=&quot;http://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt; APIs.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/946/1*WHxixmrLvY5i29owQJ1uGQ.png&quot; /&gt;&lt;/figure&gt;&lt;h3&gt;Top Candy&lt;/h3&gt;&lt;p&gt;For the solutions, I used &lt;em&gt;flatCollect&lt;/em&gt;, &lt;em&gt;toBag&lt;/em&gt;, &lt;em&gt;topOccurrences&lt;/em&gt;, &lt;em&gt;collect&lt;/em&gt;, &lt;em&gt;toSet&lt;/em&gt;, &lt;em&gt;reduce&lt;/em&gt; and &lt;em&gt;intersect&lt;/em&gt;.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void topCandy()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Bag&amp;lt;Candy&amp;gt;&amp;gt; bagsOfCandy =&lt;br /&gt;            this.collectBagsOfCandy();&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Flatten the Bags of Candy into a single Bag&lt;br /&gt;    &lt;/em&gt;Bag&amp;lt;Candy&amp;gt; bigBagOfCandy =&lt;br /&gt;            bagsOfCandy.flatCollect(bag -&amp;gt; bag).toBag();&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Find the top occurrence in the bag and convert that&lt;br /&gt;    // to a set.&lt;br /&gt;    &lt;/em&gt;MutableSet&amp;lt;Candy&amp;gt; mostCommon =&lt;br /&gt;            bigBagOfCandy.topOccurrences(1)&lt;br /&gt;                    .collect(ObjectIntPair::getOne)&lt;br /&gt;                    .toSet();&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(Candy.&lt;strong&gt;&lt;em&gt;REESES_PIECES&lt;/em&gt;&lt;/strong&gt;),&lt;br /&gt;            mostCommon);&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Find the top 10 occurrences of Candy in each of the&lt;br /&gt;    // bags and intersect them.&lt;br /&gt;    &lt;/em&gt;MutableSet&amp;lt;Candy&amp;gt; commonInTop10 =&lt;br /&gt;            bagsOfCandy.collect(&lt;br /&gt;                    bag -&amp;gt; bag.topOccurrences(10)&lt;br /&gt;                            .collect(ObjectIntPair::getOne)&lt;br /&gt;                            .toSet())&lt;br /&gt;                    .reduce(MutableSet::intersect)&lt;br /&gt;                    .get();&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(Candy.&lt;strong&gt;&lt;em&gt;REESES_PIECES&lt;/em&gt;&lt;/strong&gt;, Candy.&lt;strong&gt;&lt;em&gt;CRUNCH&lt;/em&gt;&lt;/strong&gt;),&lt;br /&gt;            commonInTop10);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;APIs covered in Kata&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#flatCollect-org.eclipse.collections.api.block.function.Function-&quot;&gt;flatCollect&lt;/a&gt; — flattens a nested collection of collections based on some attribute specified in a Function.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#toBag--&quot;&gt;toBag&lt;/a&gt; — converts a collection to a Bag.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/bag/Bag.html#topOccurrences-int-&quot;&gt;topOccurrences&lt;/a&gt; — find the top occurrences of items in a Bag based on their counts. The List returned will be bigger than the specified count requested if there are any ties.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#collect-org.eclipse.collections.api.block.function.Function-&quot;&gt;collect&lt;/a&gt; — transforms a collection from one type to another using a specified Function.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#toSet--&quot;&gt;toSet&lt;/a&gt; — converts a collection to a Set.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#reduce-java.util.function.BinaryOperator-&quot;&gt;reduce&lt;/a&gt; — applies a BinaryOperator to all elements of the collection, in this case a call to intersect two sets.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/set/MutableSet.html#intersect-org.eclipse.collections.api.set.SetIterable-&quot;&gt;intersect&lt;/a&gt; — returns the result of intersecting two sets.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=36f6d92ac736&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Nov 2018 00:01:15 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF 3.14.4 released</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-8940993367246153111</guid>
+	<link>http://eclipseecf.blogspot.com/2018/11/ecf-3144-released.html</link>
+	<description>ECF 3.14.4 was recently &lt;a href=&quot;http://www.eclipse.org/ecf/downloads.php&quot;&gt;released&lt;/a&gt;.  This was a bug-fix release.  There are notes on some of the recent additions &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/10/ecf-3143-released.html&quot;&gt;here&lt;/a&gt;.</description>
+	<pubDate>Sun, 04 Nov 2018 18:00:30 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Thabang Mashologu: Participate in the 2018 Eclipse Foundation Brand Survey</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6655 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/thabang-mashologu/participate-2018-eclipse-foundation-brand-survey</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;2018 has been a busy year so far! The Eclipse Foundation introduced &lt;a href=&quot;https://eclipse-foundation.blog/2018/04/10/eclipse-foundation-new-logo/&quot;&gt;a new Foundation logo&lt;/a&gt;, revamped the &lt;a href=&quot;http://www.eclipse.org&quot;&gt;www.eclipse.org&lt;/a&gt; website, launched the &lt;a href=&quot;http://jakarta.ee&quot;&gt;Jakarta EE&lt;/a&gt; brand, and the list goes on. &lt;/p&gt;
+
+&lt;p&gt;We are excited to launch the 2018 edition of our &lt;a href=&quot;http://bit.ly/2018EFSurvey&quot;&gt;brand survey&lt;/a&gt;. The survey will run until December 14, 2018. Please let us know what YOU think of the Eclipse Foundation and share your ideas for making it represent the Eclipse community better.  &lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;http://bit.ly/2018EFSurvey&quot;&gt;http://bit.ly/2018EFSurvey&lt;/a&gt; to take the survey today!&lt;br /&gt;
+ &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 02 Nov 2018 20:03:05 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: Trick or Treat: A Halloween Kata</title>
+	<guid isPermaLink="false">https://medium.com/p/d469e1400d48</guid>
+	<link>https://medium.com/@donraab/trick-or-treat-a-halloween-kata-d469e1400d48?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Learn how to use &lt;a href=&quot;http://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt; APIs in a fun Java code kata.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*ItaICP0Neut44ZqdKN-YCA.jpeg&quot; /&gt;Is a Cup a Bag?&lt;/figure&gt;&lt;h3&gt;Kata Time&lt;/h3&gt;&lt;p&gt;At Oracle CodeOne last week I co-presented a talk titled “Invest in your Java Katalogue”. I’ve co-presented the talk previously at QCon New York. There is a video of the talk from QCon NY available &lt;a href=&quot;https://www.infoq.com/presentations/java-katas&quot;&gt;here&lt;/a&gt;. In the talk, I encourage developers to create their own katas to teach themselves new programming skills and then to share those katas with other developers. I often say that we learn best by doing, and the best way to learn is to teach.&lt;/p&gt;&lt;p&gt;More simply:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Do&lt;/li&gt;&lt;li&gt;Teach&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;So here I am now, practicing what I preach. The rest of this blog will include code for a Halloween Kata using Java 8 with Eclipse Collections. I just developed the kata this evening. There’s perhaps no better way to see how sweet the APIs of &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt; are than with a cup or &lt;em&gt;Bag&lt;/em&gt; of candy. You might also get to see how sweet some of the Java Time APIs are along the way.&lt;/p&gt;&lt;h3&gt;Getting Started&lt;/h3&gt;&lt;p&gt;You can find Maven coordinates to get the Eclipse Collections binaries &lt;a href=&quot;http://www.eclipse.org/collections/&quot;&gt;here&lt;/a&gt; if you want to set up a simple Maven project to work in. To make things even easier, you can also just download the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata&quot;&gt;Eclipse Collections Katas from GitHub&lt;/a&gt;, import it into your favorite IDE as a Maven project and add a class in the test folder under the &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/pet-kata/#/&quot;&gt;Pet Kata&lt;/a&gt;. This is exactly what I did. I called my class &lt;em&gt;HalloweenKata&lt;/em&gt;. I’ve included the imports I used below to be helpful.&lt;/p&gt;&lt;pre&gt;import java.time.Duration;&lt;br /&gt;import java.time.LocalDate;&lt;br /&gt;import java.time.LocalDateTime;&lt;br /&gt;import java.time.LocalTime;&lt;br /&gt;import java.time.Month;&lt;br /&gt;import java.time.ZoneId;&lt;br /&gt;import java.util.Random;&lt;br /&gt;import java.util.stream.IntStream;&lt;br /&gt;&lt;br /&gt;import org.eclipse.collections.api.bag.Bag;&lt;br /&gt;import org.eclipse.collections.api.list.MutableList;&lt;br /&gt;import org.eclipse.collections.api.set.MutableSet;&lt;br /&gt;import org.eclipse.collections.api.tuple.primitive.ObjectIntPair;&lt;br /&gt;import org.eclipse.collections.impl.collector.Collectors2;&lt;br /&gt;import org.eclipse.collections.impl.factory.Lists;&lt;br /&gt;import org.eclipse.collections.impl.factory.Sets;&lt;/pre&gt;&lt;pre&gt;import org.junit.Assert;&lt;br /&gt;import org.junit.Test;&lt;/pre&gt;&lt;pre&gt;public class HalloweenKata&lt;br /&gt;{&lt;br /&gt;    ....&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Trick or Treat&lt;/h3&gt;&lt;p&gt;Here’s an enum of Candy. You can include this as an inner class in &lt;em&gt;HalloweenKata&lt;/em&gt;. Do you see all of your Halloween favorites? I left my favorite candy bar out — Whatchamacallit? Too tempting.&lt;/p&gt;&lt;pre&gt;enum Candy&lt;br /&gt;{&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;SNICKERS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;MILKYWAY&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;REESES_PIECES&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;REESES_PEANUT_BUTTER_CUPS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;M_AND_M_S&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;TWIZZLERS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;WHOPPERS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;ONE_HUNDRED_GRAND&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;SKITTLES&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;TWIX&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;CANDY_CORN&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;JOLLY_RANCHERS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;NERDS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;ALMOND_JOY&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;MOUNDS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;BABY_RUTH&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;THREE_MUSKETEERS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;HERSHEYS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;CRUNCH&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;HERSHEYS_KISSES&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;MIKE_AND_IKE&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;MILK_DUDS&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;SWEDISH_FISH&lt;/em&gt;&lt;/strong&gt;,&lt;br /&gt;    &lt;strong&gt;&lt;em&gt;YORK_PEPPERMINT_PATTY&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;}&lt;/pre&gt;&lt;h3&gt;Time to send the kids out trick or treating&lt;/h3&gt;&lt;p&gt;We usually see several rounds of kids come to our house looking for candy on Halloween. I’ve grouped them by three educational groupings in the United States to keep things simple.&lt;/p&gt;&lt;pre&gt;private MutableList&amp;lt;Bag&amp;lt;Candy&amp;gt;&amp;gt; collectBagsOfCandy()&lt;br /&gt;{&lt;br /&gt;    LocalDate halloween =&lt;br /&gt;            LocalDate.&lt;em&gt;of&lt;/em&gt;(2018, Month.&lt;strong&gt;&lt;em&gt;OCTOBER&lt;/em&gt;&lt;/strong&gt;, 31);&lt;br /&gt;    LocalTime elementarySchoolStart =&lt;br /&gt;            LocalTime.&lt;strong&gt;&lt;em&gt;NOON&lt;/em&gt;&lt;/strong&gt;.plus(Duration.&lt;em&gt;ofHours&lt;/em&gt;(3));&lt;br /&gt;    LocalTime middleSchoolStart =&lt;br /&gt;            elementarySchoolStart.plus(Duration.&lt;em&gt;ofHours&lt;/em&gt;(2));&lt;br /&gt;    LocalTime highSchoolStart =&lt;br /&gt;            middleSchoolStart.plus(Duration.&lt;em&gt;ofHours&lt;/em&gt;(2));&lt;br /&gt;    long candyCount = 250L;&lt;br /&gt;&lt;br /&gt;    Bag&amp;lt;Candy&amp;gt; elementarySchoolBag = this.trickOrTreat(&lt;br /&gt;            halloween.atTime(elementarySchoolStart),&lt;br /&gt;            candyCount);&lt;br /&gt;    Bag&amp;lt;Candy&amp;gt; middleSchoolBag = this.trickOrTreat(&lt;br /&gt;            halloween.atTime(middleSchoolStart),&lt;br /&gt;            candyCount);&lt;br /&gt;    Bag&amp;lt;Candy&amp;gt; highSchoolBag = this.trickOrTreat(&lt;br /&gt;            halloween.atTime(highSchoolStart),&lt;br /&gt;            candyCount);&lt;br /&gt;&lt;br /&gt;    return Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;            elementarySchoolBag,&lt;br /&gt;            middleSchoolBag,&lt;br /&gt;            highSchoolBag);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;When each group goes trick or treating, they get a random collection of candy in their bags, seeded by their start time.&lt;/p&gt;&lt;pre&gt;public Bag&amp;lt;Candy&amp;gt; trickOrTreat(LocalDateTime time, long candyCount)&lt;br /&gt;{&lt;br /&gt;    ZoneId newYork = ZoneId.&lt;em&gt;of&lt;/em&gt;(&lt;strong&gt;&quot;America/New_York&quot;&lt;/strong&gt;);&lt;br /&gt;    IntStream limit = new Random(&lt;br /&gt;            time.atZone(newYork).toEpochSecond())&lt;br /&gt;            .ints(0, Candy.&lt;em&gt;values&lt;/em&gt;().length - 1)&lt;br /&gt;            .limit(candyCount);&lt;br /&gt;    Bag&amp;lt;Candy&amp;gt; bagOfCandy = limit.mapToObj(i -&amp;gt; Candy.&lt;em&gt;values&lt;/em&gt;()[i])&lt;br /&gt;            .collect(Collectors2.&lt;em&gt;toBag&lt;/em&gt;());&lt;br /&gt;    System.&lt;strong&gt;&lt;em&gt;out&lt;/em&gt;&lt;/strong&gt;.println(bagOfCandy.topOccurrences(10));&lt;br /&gt;    return bagOfCandy;&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;A fix the test style kata&lt;/h3&gt;&lt;p&gt;This test is missing some code. Your job is to fill in the missing code with code that will compile and pass the test. This is where you get to try things out and experiment as you look to learn some unfamiliar or even practice familiar APIs in Eclipse Collections.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void topCandy()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Bag&amp;lt;Candy&amp;gt;&amp;gt; bagsOfCandy =&lt;br /&gt;            this.collectBagsOfCandy();&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Flatten the Bags of Candy into a single Bag&lt;br /&gt;    &lt;/em&gt;Bag&amp;lt;Candy&amp;gt; bigBagOfCandy = null;&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Find the top occurrence in the bag and convert that&lt;br /&gt;    // to a set of Candy.&lt;br /&gt;    &lt;/em&gt;MutableSet&amp;lt;Candy&amp;gt; mostCommon = null;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(Candy.&lt;strong&gt;&lt;em&gt;CRUNCH&lt;/em&gt;&lt;/strong&gt;),&lt;br /&gt;            mostCommon);&lt;br /&gt;&lt;br /&gt;    &lt;em&gt;// Hint: Find the top 10 occurrences of Candy in each of the&lt;br /&gt;    // bags and intersect them to see which are the common ones&lt;br /&gt;    // between all of the bags.&lt;br /&gt;    &lt;/em&gt;MutableSet&amp;lt;Candy&amp;gt; commonInTop10 = null;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(Candy.&lt;strong&gt;&lt;em&gt;REESES_PIECES&lt;/em&gt;&lt;/strong&gt;, Candy.&lt;strong&gt;&lt;em&gt;CRUNCH&lt;/em&gt;&lt;/strong&gt;),&lt;br /&gt;            commonInTop10);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: I have tried running these tests on a Mac Book Pro and Windows 10 Machine with Java 8. The results are consistent between runs, but I have not verified if they are consistent on any other platforms and Java versions.&lt;/p&gt;&lt;h3&gt;Kata to learn, Kata to teach&lt;/h3&gt;&lt;p&gt;I put this kata together quickly today to show how you can explore different APIs in a programming language and library by building a kata. You could try this same kata in different languages or with different collections libraries or using Java Streams. It’s really up to you to decide what you want to learn and what you want to teach others. This kata focused on learning and teaching several APIs available on Eclipse Collections types. I built a simple use case to demonstrate these APIs that I thought many developers might find fun and inviting.&lt;/p&gt;&lt;p&gt;I have posted &lt;a href=&quot;https://medium.com/@donraab/halloween-kata-solutions-36f6d92ac736&quot;&gt;my solutions to the kata&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Happy Halloween!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=d469e1400d48&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 01 Nov 2018 02:58:02 +0000</pubDate>
+</item>
+<item>
+	<title>Doug Schaefer: EclipseCon 2018 and the New CDT</title>
+	<guid isPermaLink="false">https://cdtdoug.ca/2018/10/29/eclipsecon</guid>
+	<link>https://cdtdoug.ca/2018/10/29/eclipsecon.html</link>
+	<description>&lt;p&gt;EclipseCon for me is many things. It’s a chance to meet face to face with my fellow CDT contributors. It’s an opportunity to run things by one another that may feel awkward over the mailing list or conference calls. It’s a chance to get a good feel for what’s happening in the rest of the Eclipse IDE and the rest of the Eclipse ecosystem. And it’s a chance to hang out with my brothers and sisters in the community and have a few laughs over a few beers going too late into the night but ready to get to work the next morning. It’s the best.&lt;/p&gt;
+
+&lt;p&gt;This year was special for another reason. The Eclipse IDE is changing. The world of IDEs is changing. A new generation is upon us. And, no, it’s not any particular IDE. Nor is it &lt;a href=&quot;https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide.html&quot;&gt;my fictional Eclipse Two IDE&lt;/a&gt; :). And believe it or not, it does involve and give a new lease on life to the old workhorse most of us simply call Eclipse. It’s a new architecture for all IDEs and the Eclipse community is taking a leadership role in adopting that architecture. Talks on the topic were everywhere at EclipseCon.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://cdtdoug.ca/images/extensibility-architecture.png&quot; style=&quot;display: block; margin: auto; height: 200px;&quot; /&gt;
+(originally https://code.visualstudio.com/assets/docs/extensions/example-debuggers/extensibility-architecture.png)
+&lt;/figure&gt;
+
+&lt;p&gt;Of course I’m talking about the Language Server Protocol and the Debug Adapter Protocol. They were introduced by Microsoft for Visual Studio Code but are also open for adoption by any IDE. It allows users to chose the front end that gives them the best user experience while giving access to the language and debug features they expect from all IDEs. It allows IDE builders to work together on these features and it allows platform vendors to not only help with that and but also give their users and customers choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdtdoug.ca/images/cdt_logo_icon_0.png&quot; style=&quot;display: block; margin: auto; height: 120px; background: white;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the CDT, we’ve been monitoring the clang/LLVM based language servers closely. clangd has industry momentum but is missing some key features. cquery has a ton of features including extensions to the LSP but has a relatively small community. CDT is working on support for both by leveraging the common Eclipse LSP4E plugins and the Generic editor. We have a long way to go before these services reach parity with the current CDT, but working with this larger community, I’m confident we’ll get there. And it will solve our problem of keeping up with the ever evolving C++ language standard thanks to the great work that goes into clang.&lt;/p&gt;
+
+&lt;p&gt;On the debug side, we’ve seen a few open source gdb debug adaptors, but none of them are really suitable to the general CDT audience. So to help with that, my collegues at QNX will work with others in the community to build a gdb debug adapter as a part of the CDT. This will be our first foray into the JavaScript/TypeScript world as an Eclipse project. We’ve built up a tonne of expertise on gdb/IDE integrations over the years and I think we can do a pretty good job of it. And of course we’ll make it available for any IDE to use, which in turn means we’re open to any help other IDE providers can offer.&lt;/p&gt;
+
+&lt;p&gt;The biggest benefit of this new component architecture is to allow users choice. For CDT, we’re going to turn that on it’s ear a bit. For us, it’s also about sharing our expertise with other IDEs. Our first step down that road will be to produce a set of Visual Studio Code extensions first for our debug adapter to ensure a seamless experience on par with CDT. Depending on what happens on the language server side, we may also produce one for LSP to help integrate clangd which may need to be forked to properly handle gcc-based environments or add features the clangd community aren’t interested in.&lt;/p&gt;
+
+&lt;p&gt;Our committment has always been to provide the best open tooling for C/C++ developers. For many, many years, that was Eclipse. This new architecture opens the door for alternatives and as the C/C++ community spreads their wings into this new world, we, the CDT contributors, will be there for them.&lt;/p&gt;</description>
+	<pubDate>Mon, 29 Oct 2018 22:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Chris Aniszczyk: Red Hat and IBM: Elephants Can Dance</title>
+	<guid isPermaLink="false">https://www.aniszczyk.org/?p=4244</guid>
+	<link>https://www.aniszczyk.org/2018/10/29/red-hat-and-ibm-elephants-can-dance/</link>
+	<description>&lt;p&gt;What an M&amp;amp;A surprise in the tech world yesterday with &lt;a href=&quot;https://newsroom.ibm.com/2018-10-28-IBM-To-Acquire-Red-Hat-Completely-Changing-The-Cloud-Landscape-And-Becoming-Worlds-1-Hybrid-Cloud-Provider?lnk=ushpv18l1&amp;amp;lnk2=learn&quot;&gt;IBM picking up Red Hat&lt;/a&gt;, the jokes on Twitter were of course on point:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Nobody got fired for buying Kubernetes&lt;/p&gt;
+&lt;p&gt;— Alexis Richardson (@monadic) &lt;a href=&quot;https://twitter.com/monadic/status/1056625760209907712?ref_src=twsrc%5Etfw&quot;&gt;October 28, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;To expand on Alexis Richardson’s funny joke above, the clouds wars are no joke amongst the hyper scale clouds of the world and the war continues to escalate. Microsoft recently closed its deal with GitHub at $7.5B to only have IBM buy Red Hat for $34B. I can’t wait to see what Google, Oracle and the other large cloud providers pick up in the coming months.&lt;/p&gt;
+&lt;p&gt;I’ve had the privilege to work at both IBM and Red Hat earlier in my career so I’m familiar with the culture of both companies; it’s going to be interesting to see how the acquisition plays out over time. IBM is a gigantic company known for its bureaucracy that has been around for over 100 years and has successfully reinvented itself multiple times to survive (see the &lt;a href=&quot;https://www.amazon.com/Who-Says-Elephants-Cant-Dance/dp/0060523808&quot;&gt;Who Says Elephants Can’t Dance&lt;/a&gt; book by IBM former CEO Lou Gerstner for a case study on this). Red Hat is an early open source pioneer with a fantastic and unique engineering culture that has been supporting remote work before it was cool and pioneered the concept of an &lt;a href=&quot;https://investors.redhat.com/~/media/Files/R/Red-Hat-IR/governance-docs/code-of-business-conduct-and-ethics/code_of_business_conduct_and_ethics_102016.pdf&quot;&gt;“open source conflict of interest” clause&lt;/a&gt; (which will be interesting to see if IBM adopts):&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;“Participation in an open source community project, whether maintained by the Company or by another commercial or non-commercial entity or organization, does not constitute a conflict of interest even where you may make a determination in the interest of the project that is adverse to the Company’s interests”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;There has been some FUD going around that IBM doesn’t fund open source or participate much in open source:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;This isn't true, though. IBM is a major contributor to Linux, the CNCF, Eclipse and Apache Foundations, Java itself, Docker, and a ton of other things. They helped create Istio and Knative. They were doing this long before MS was. &lt;a href=&quot;https://t.co/Oddn1pBHLw&quot;&gt;https://t.co/Oddn1pBHLw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Karl Matthias (@relistan) &lt;a href=&quot;https://twitter.com/relistan/status/1056859738510684160?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This FUD is absolutely crazy and needs to stop&lt;/strong&gt;, IBM has arguably done more for open source than any other company to get where we are today with open source being prevalent in almost every industry and vertical:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;we probably shouldn't forget that IBM has arguably done more than any company on the planet to make open source an enterprise play. it paved the way for all of us.&lt;/p&gt;
+&lt;p&gt;— Ruthless Netpromoter (@monkchips) &lt;a href=&quot;https://twitter.com/monkchips/status/1056884084239147009?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;IBM spent $1B on Linux before open source (and even Linux was cool)? Hell, I spent my early career working on open source at IBM where they had one of the first Open Source Program Offices (OSPOs) and spent my time hacking on Eclipse full time, which was another open source project that IBM helped start that disrupted the whole commercial tooling industrial complex. You can read more about IBM’s commitment to open source &lt;a href=&quot;https://www.ibm.com/developerworks/cloud/library/cl-open-architecture-update/index.html&quot;&gt;here&lt;/a&gt; which I think provides a great timeline of the various open source projects they have been involved in before open source was cool.&lt;/p&gt;
+&lt;p&gt;Anyways, to my Red Hat colleagues, my advice would be to give this a chance for awhile as IBM has a lot of strengths that Red Hat could take advantage of, they are truly a global company and have a solid sales channel that is embedded all over the world.&lt;/p&gt;
+&lt;p&gt;To my IBM colleagues, don’t “bluewash” this company and almost treat this as a reverse merger, embrace the culture from Red Hat and you should honestly consider making Jim Whitehurst CEO of IBM and Chris Wright CTO of IBM. As Lou Gerstner said, “culture isn’t just one aspect of the game, it is the game” and this is one area that Red Hat can greatly help IBM as it navigates towards the cloud.&lt;/p&gt;
+&lt;p&gt;Here are also a couple other good takes on the acquisition I enjoyed:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;My take on &lt;a href=&quot;https://twitter.com/IBM?ref_src=twsrc%5Etfw&quot;&gt;@ibm&lt;/a&gt; acquisition of &lt;a href=&quot;https://twitter.com/RedHat?ref_src=twsrc%5Etfw&quot;&gt;@RedHat&lt;/a&gt; for $34B, the impact this will have on &lt;a href=&quot;https://twitter.com/hashtag/opensource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opensource&lt;/a&gt; software, and what this means for &lt;a href=&quot;https://twitter.com/wso2?ref_src=twsrc%5Etfw&quot;&gt;@wso2&lt;/a&gt;.  &lt;a href=&quot;https://t.co/SbJGNqu0ja&quot;&gt;https://t.co/SbJGNqu0ja&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Tyler Jewell (@TylerJewell) &lt;a href=&quot;https://twitter.com/TylerJewell/status/1056671052040826880?ref_src=twsrc%5Etfw&quot;&gt;October 28, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;IBM's Old Playbook&lt;a href=&quot;https://t.co/DW3GAD3FTs&quot;&gt;https://t.co/DW3GAD3FTs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;IBM has bought Red Hat in an attempt to recreate its success in the 90s; it's not clear, though, that the company or the market is the same.&lt;/p&gt;
+&lt;p&gt;— Stratechery (@stratechery) &lt;a href=&quot;https://twitter.com/stratechery/status/1056908699279618048?ref_src=twsrc%5Etfw&quot;&gt;October 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Finally, I’m really looking forward to see what IBM and Red Hat together, they have both been kindred spirits in making bets early on open source and I hope they bring that same zeal to the cloud. It at least makes my job running the &lt;a href=&quot;https://cncf.io&quot;&gt;Cloud Native Computing Foundation&lt;/a&gt; (CNCF) more entertaining &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/11/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 29 Oct 2018 14:36:03 +0000</pubDate>
+</item>
+<item>
+	<title>Tom Schindl: Building dynamic Java Module System layers to integrate JavaFX 11 in Equinox</title>
+	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5126</guid>
+	<link>https://tomsondev.bestsolution.at/2018/10/24/building-dyamic-java-module-system-layers-to-integrate-javafx-11-in-equinox/</link>
+	<description>&lt;p&gt;One of the most fundamental features of the &lt;a href=&quot;http://efxclipse.org/&quot;&gt;e(fx)clipse&lt;/a&gt; runtime is to integrate JavaFX into the Equinox OSGi-Container and even a running Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;We currently support the following setups:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaFX 8&lt;/li&gt;
+&lt;li&gt;JavaFX 9/10&lt;/li&gt;
+&lt;li&gt;JavaFX 11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and the integration for all those versions is a bit different. I don’t want to go into details but starting with JavaFX-11 we need to spin up a new Java-Module-System-Layer at runtime because we can not assume JavaFX being part of the JRE running your OSGi-Container (Eclipse IDE).&lt;/p&gt;
+&lt;p&gt;Since JavaFX-9 we spin up a dynamic layer to implement JavaFX-SWT-Integration and we adapted that logic for JavaFX-11 to load all JavaFX-11 modules. &lt;/p&gt;
+&lt;p&gt;The code we have works like this  and it works prefectly fine until someone like &lt;a href=&quot;http://fxexperience.com/controlsfx/&quot;&gt;ControlsFX&lt;/a&gt; comes along and does not play by the rules trying to load classes from unexported packages like &lt;strong&gt;com.sun.javafx.runtime.VersionInfo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The standard answer from ControlsFX to fix that problem temporarily is to force the module-system to export them using &lt;strong&gt;–add-exports=javafx.base/com.sun.javafx.runtime=ALL-UNNAMED&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Unfortunately this workaround does not work in our case because the command-line flag only allows to modify modules of the Boot-Layer but not those created in dynamic ones like those we construct inside our JavaFX-OSGi integration.&lt;/p&gt;
+&lt;p&gt;I was investigating yesterday how one could fix this problem but could not come up with a good solution (one that does not call into internals of the module system) until I tweeted &lt;/p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;so @&lt;a href=&quot;https://twitter.com/java&quot;&gt;java&lt;/a&gt; experts following - one can modify modules of the boot-layer (eg --add-exports,..) but if one constructs a… &lt;a href=&quot;https://twitter.com/i/web/status/1054854038456598530&quot;&gt; twitter.com/i/web/status/1…&lt;/a&gt;&lt;/p&gt;— &lt;br /&gt;Tom Schindl (@tomsontom) &lt;a href=&quot;http://twitter.com/#!/tomsontom/status/1054854038456598530&quot;&gt;October 23, 2018&lt;/a&gt;&lt;/blockquote&gt; about it and Tom Watson (one of the maintainers of Equinox) pointed me into the right direction.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;So the solution is&lt;/p&gt;
+
+&lt;p&gt;and now I have to think how we expose that to in our OSGi-Integration.&lt;/p&gt;</description>
+	<pubDate>Wed, 24 Oct 2018 08:49:56 +0000</pubDate>
+</item>
+<item>
+	<title>Tanja Obradovic: Announcing Eclipse GlassFish 5.1.0-RC1 release</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6653 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/tanja-obradovic/announcing-eclipse-glassfish-510-rc1-release</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;I am very excited to say that Eclipse GlassFish 5.1-RC1 is now released! The version we are working on, Eclipse GlassFish 5.1.0, will be Java EE 8 certified once it is fully released, however, the RC1 gives the community an opportunity to test the code and provide their feedback. We are making available nightly builds as well.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Huge progress has been made in the Jakarta EE world over the last couple of months. A big thank you to everyone involved!&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Let’s recap all the successes and take a moment to celebrate our little victories!&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;GlassFish and Oracle Java EE API contributions to Jakarta EE are now complete.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Java EE TCKs are open sourced and hosted at the Eclipse Foundation.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Nightly builds for Eclipse GlassFish are available on the Foundation’s Jenkins-based Common Build Infrastructure &lt;a href=&quot;https://jenkins.eclipse.org/glassfish/job/glassfish-nightly-freestyle/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;The work on ensuring that Eclipse GlassFish is Java EE 8 compatible and can be branded as Java EE 8 compatible is well on its way.&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;A test infrastructure at the Eclipse Foundation is now ready for testing Eclipse GlassFish against the Java EE 8 TCKs.&lt;/p&gt;
+		&lt;/li&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;The Eclipse Foundation has signed the Oracle Java EE TCK agreement, which will allow us to proceed with the testing.&lt;/p&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;We expect that Eclipse GlassFish sources will become the basis for an implementation of the Jakarta EE specifications.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;To find out more about the Eclipse GlassFish 5.1-RC1 please refer to this&lt;a href=&quot;https://dmitrykornilov.net/2018/10/22/first-year-of-eclipse-ee4j/&quot;&gt; great blog&lt;/a&gt; from Dmitry Kornilov. Once again a big shout out to all the project teams working so hard to meet the target milestones. Please join me in celebrating another Jakarta EE milestone and spread the good news!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 24 Oct 2018 08:49:20 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Eclipse IP Process: Service Releases of Third Party Content</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5450</guid>
+	<link>https://waynebeaton.wordpress.com/2018/10/23/eclipse-ip-process-service-releases-of-third-party-content/</link>
+	<description>&lt;p&gt;The primary role of the Eclipse IP Team is to reduce the risks associated with adopting open source software. In broad terms, they ensure that the licenses on content are compatible, that provenance is clear, and that content otherwise unencumbered from a legal point-of-view (strictly speaking, the team does all of this only for &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-third-party-prereq-types&quot;&gt;Type B&lt;/a&gt; requests). In other words, they do the sorts of things that every software project really needs to do (especially those projects that care about wide scale adoption), but software developers hate doing.&lt;/p&gt;
+&lt;p&gt;It’s impossible to remove all risk. The &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip&quot;&gt;IP Due Diligence process&lt;/a&gt; is all about risk mitigation.&lt;/p&gt;
+&lt;p&gt;Project committers do play an important role in this work. The Eclipse IP Team does the heavy investigative work, but it is the committers who must bring intellectual property matters to the IP Team for their review. This takes the form of creating a contribution questionnaire (CQ) and then providing assistance where necessary to our analyst to investigate, and identify and resolve issues.&lt;/p&gt;
+&lt;p&gt;Experience has demonstrated that service releases of third party content are very low risk. By their nature, service releases include bug fixes only, and so don’t tend to include a lot of new intellectual property. Our experience is that bug fix releases generally change or add a few lines of code here and there.&lt;/p&gt;
+&lt;p&gt;Based on this experience, the Eclipse IP Due Diligence Process gives service releases of third party content a pass: project committers do not need to create a CQ or otherwise engage with the Eclipse IP Due Diligence Process for any service release of third party content that has already been approved.&lt;/p&gt;
+&lt;p&gt;That is, if a version of some bit of third party content has been approved by the IP Team, then service releases based on that approved version do not require any review. Just drop ’em into your build and have at it (e.g. if version 3.2 has been approved for use, a project can just use version 3.2.n without formal review).&lt;/p&gt;
+&lt;p&gt;Of course, if you suspect shenanigans or otherwise lack confidence in the status of the content, you can bring the service release to the IP Team in the usual manner. In fact, if you do suspect that maybe something labeled as a service release isn’t actually service release, please do engage the IP Team.&lt;/p&gt;
+&lt;p&gt;This and many other topics are covered by the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-third-party-versions&quot;&gt;Eclipse Project Handbook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m at EclipseCon Europe. If I’m not in a session, I’ll be in the registration area. Ask me questions!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org&quot;&gt;&lt;img alt=&quot;ece_2018_logo&quot; class=&quot;alignnone size-full wp-image-5451 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/10/ece_2018_logo.png?w=640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 23 Oct 2018 07:49:25 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Eclipse GEF DOT – Graphical Views on Xtext DSLs</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/eclipse-gef-dot-graphical-views-on-xtext-dsls</guid>
+	<link>https://blogs.itemis.com/en/eclipse-gef-dot-graphical-views-on-xtext-dsls</link>
+	<description>The 
+&lt;a href=&quot;https://hosting.itemis.de/en/adding-gef-dot-based-visualization-support-to-the-eclipse-ide&quot;&gt;previous blog post&lt;/a&gt; introduced complex 
+&lt;a href=&quot;https://graphviz.gitlab.io/_pages/doc/info/lang.html&quot;&gt;Graphviz *.dot&lt;/a&gt; graphs to add Eclipse GEF DOT-based visualization support to the Eclipse IDE. This blog post demonstrates the usage of the GEF DOT Graph View to add graphical representations to Xtext DSLs.
+&lt;br /&gt;
+&lt;br /&gt;The following examples are shipped with the Xtext framework and are available from the Xtext Example Wizard. They are extended by Model-to-Text transformations to generate intermediate Graphviz *.dot files as inputs for the GEF DOT Graph View.
+&lt;br /&gt; 
+&lt;h2&gt;Visualizing the Xtext Domain-Model Example&lt;/h2&gt; The Xtext Domain-Model Example describes a language that allows the specification of entities with their properties/operations and their relations to each other. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;1_DomainModelExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/1_DomainModelExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=1_DomainModelExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;The 
+&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/gef_graphical_views_on_xtext_dsls/DomainModelExample/org.eclipse.xtext.example.domainmodel.tests/src/org/eclipse/xtext/example/domainmodel/tests/DomainmodelDotGeneratorTest.xtend&quot;&gt;DomainmodelDotGeneratorTest&lt;/a&gt; test suite specifies how the different Entity DSLs should be translated to Graphviz DOT files.
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;@RunWith(XtextRunner)
+@InjectWith(DomainmodelInjectorProvider)
+class DomainmodelDotGeneratorTest {
+
+	...
+
+	@Test def test13() {
+		'''
+			import java.util.List
+
+			entity Blog {
+				title: String
+				posts: List&amp;lt;Post&amp;gt;
+
+				op addPost(Post post) : void { }
+				op getPosts() : List&amp;lt;Post&amp;gt; {}
+			}
+
+			entity HasAuthor {
+				author: String
+
+				op getAuthor() { author }
+				op setAuthor() : void {}
+			}
+
+			entity Post extends HasAuthor {
+				title: String
+				content: String
+				comments: List&amp;lt;Comment&amp;gt;
+			}
+
+			entity Comment extends HasAuthor {
+				content: String
+			}
+		'''.assertCompilesTo('''
+			digraph {
+				// layout=sfdp
+
+				nodesep=1.2
+				rankdir=BT
+
+				node [shape=record style=&quot;filled, bold&quot; color=&quot;#CE970D&quot; fillcolor=&quot;#FAEAC1&quot; fontcolor=&quot;#CE970D&quot;]
+
+				// nodes
+				Blog [
+					label = &quot;{
+						Blog|
+						title : String\l|
+						addPost(Post post) : void\lgetPosts() : List\&amp;lt;Post\&amp;gt;\l
+					}&quot;
+				]
+				HasAuthor [
+					label = &quot;{
+						HasAuthor|
+						author : String\l|
+						getAuthor() : String\lsetAuthor() : void\l
+					}&quot;
+				]
+				Post [
+					label = &quot;{
+						Post|
+						title : String\lcontent : String\l|
+					}&quot;
+				]
+				Comment [
+					label = &quot;{
+						Comment|
+						content : String\l|
+					}&quot;
+				]
+
+				// inheritance edges
+				edge[arrowhead=onormal color=&quot;#CE970D&quot; fontcolor=&quot;#CE970D&quot;]
+				Post -&amp;gt; HasAuthor
+				Comment -&amp;gt; HasAuthor
+
+				// association edges
+				edge[arrowhead=normal arrowtail=diamond dir=both constraint=false]
+				Blog -&amp;gt; Post [headlabel=&quot;posts\n[0..*]&quot;]
+				Post -&amp;gt; Comment [headlabel=&quot;comments\n[0..*]&quot;]
+			}
+		''')
+	}
+
+	...
+
+}
+&lt;/pre&gt; 
+&lt;br /&gt;The implementation of the 
+&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/gef_graphical_views_on_xtext_dsls/DomainModelExample/org.eclipse.xtext.example.domainmodel/src/org/eclipse/xtext/example/domainmodel/generator/DomainmodelDotGenerator.xtend&quot;&gt;DomainmodelDotGenerator&lt;/a&gt; shows that each entity is translated into a DOT node, the entity's properties/operations are coded into the DOT node's record-based label, while the inheritance/association relationships are converted to DOT edges with corresponding arrowhead/arrowtail symbols.
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;class DomainmodelDotGenerator extends JvmModelGenerator {
+
+	...
+
+	override void doGenerate(Resource input, IFileSystemAccess fsa) {
+		fsa.generateFile(input.fileName, (input.contents.head as DomainModel).toDot)
+	}
+
+	def toDot(DomainModel it) '''
+		digraph {
+			// layout=sfdp
+
+			nodesep=1.2
+			rankdir=BT
+
+			«generateEntities»
+
+			«generateInheritanceConnections»
+
+			«generateAssociationConnections»
+		}
+	'''
+
+	private def generateEntities(DomainModel it) '''
+		node [shape=record style=&quot;filled, bold&quot; color=&quot;#CE970D&quot; fillcolor=&quot;#FAEAC1&quot; fontcolor=&quot;#CE970D&quot;]
+
+		// nodes
+		«FOR entity : entities»
+			«entity.generate»
+		«ENDFOR»
+	'''
+
+	private def generate(Entity it) '''
+		«name» [
+			label = &quot;{
+				«name»|
+				«generateProperties»|
+				«generateOperations»
+			}&quot;
+		]
+	'''
+
+	...
+
+	private def generateInheritanceConnections(DomainModel it) '''
+		// inheritance edges
+		edge[arrowhead=onormal color=&quot;#CE970D&quot; fontcolor=&quot;#CE970D&quot;]
+		«FOR entity : entities»
+			«IF entity.superType!==null»
+				«entity.name» -&amp;gt; «entity.superType.simpleName»
+			«ENDIF»
+		«ENDFOR»
+	'''
+
+	private def generateAssociationConnections(DomainModel it) '''
+		// association edges
+		edge[arrowhead=normal arrowtail=diamond dir=both constraint=false]
+		«FOR entity : entities»
+			«FOR property : entity.associationProperties»
+				«entity.name» -&amp;gt; «property.type.determineType.simpleName» [headlabel=&quot;«property.associationLabel»&quot;]
+			«ENDFOR»
+		«ENDFOR»
+	'''
+
+	...
+
+}&lt;/pre&gt; 
+&lt;br /&gt;
+&lt;br /&gt;As soon as the Xtext project is extended by the GEF DOT-based visualization support, the Show In -&amp;gt; DOT Graphcontext menu of the Xtext Editor opens the graphical representation of the Xtext DSL.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;2_DomainModelExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/2_DomainModelExample_visualization.png?t=1540276010935&amp;amp;width=724&amp;amp;name=2_DomainModelExample_visualization.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext Home Automation Example&lt;/h2&gt; The Xtext Home Automation Example describes a language for home automation systems that allows the specification of devices with their states and rules to describe the effects of the events on the devices' states. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;3_HomeAutomationExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/3_HomeAutomationExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=3_HomeAutomationExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Rules firing the same device state may lead to endless recursion. Such warnings are presented on the textual editor and also on the graphical view. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;4_HomeAutomationExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/4_HomeAutomationExample_visualization.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=4_HomeAutomationExample_visualization.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext Simple Arithmetics Example&lt;/h2&gt; The Xtext Simple Arithmetics Example describes a language for simple arithmetics calculation such as addition, substraction, multiplication and division. The operands of an expression can either be a simple number, a function call or even a complex expression. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;5_SimpleArithmeticsExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/5_SimpleArithmeticsExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=5_SimpleArithmeticsExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;The graphical view on an expression shows not only the operators with their operands, but also the values of each sub-expressions. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;6_SimpleArithmeticsExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/6_SimpleArithmeticsExample_visualization.jpg?t=1540276010935&amp;amp;width=936&amp;amp;name=6_SimpleArithmeticsExample_visualization.jpg&quot; style=&quot;width: 936px;&quot; width=&quot;936&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext State-Machine Example&lt;/h2&gt; 
+&lt;p&gt;The Xtext State-Machine Example describes a languages for State-Machine definitions. A state machine consists of certain commands, events, states and transitions. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;img alt=&quot;7_StateMachineExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/7_StateMachineExample_class_diagram.jpg?t=1540276010935&amp;amp;width=2911&amp;amp;name=7_StateMachineExample_class_diagram.jpg&quot; style=&quot;width: 2911px;&quot; width=&quot;2911&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the graphical view, the states are presented by nodes, the transitions by edges. The commands are attached to the corresponding nodes, while the events are described on the corresponding edge label. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;8_StateMachineExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/8_StateMachineExample_visualization.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=8_StateMachineExample_visualization.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;All these examples are available on the corresponding &lt;a href=&quot;https://github.com/itemis/itemis-blog/tree/gef_graphical_views_on_xtext_dsls&quot;&gt;GitHub repository&lt;/a&gt;. For further information, watch the &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/eclipse-gef-dot-graphviz-authoring-environment-eclipse&quot;&gt;recorded GEF DOT session on the EclipseCon Europe 2018&lt;/a&gt;, study the &lt;a href=&quot;https://github.com/eclipse/gef/wiki/DOT-User-Guide&quot;&gt;GEF DOT User Guide&lt;/a&gt; and take a look at the Getting started with GEF 5.0 Online Tutorial.&lt;/p&gt; 
+&lt;p&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://info.itemis.com/cs/ci/?pg=03e89a61-aaf0-43d0-8890-cc79be189a85&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;hseid=&amp;amp;hsic=&quot;&gt;&lt;img align=&quot;middle&quot; alt=&quot;Register for the GEF Tutorials&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/03e89a61-aaf0-43d0-8890-cc79be189a85.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Feclipse-gef-dot-graphical-views-on-xtext-dsls&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 22 Oct 2018 14:15:00 +0000</pubDate>
+	<author>miklossy@itemis.de (Tamas Miklossy)</author>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Download the Conference App!</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/749 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/download-conference-app</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Thanks to &lt;a href=&quot;https://eclipsesource.com/&quot; target=&quot;_blank&quot;&gt;EclipseSource&lt;/a&gt; and their &lt;a href=&quot;http://tabris.com/&quot; target=&quot;_blank&quot;&gt;Tabris framework&lt;/a&gt;, the EclipseCon Europe conference app is ready for download. Browse the schedule, save your favorite talks to your personal list, read the talk descriptions, and see the speaker bios. If you're looking for a room, follow the maps and you won't get lost!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.eclipsesource.eclipsecon&quot; target=&quot;_blank&quot;&gt;Android&lt;/a&gt;  version&lt;/li&gt;
+&lt;li&gt;Download the &lt;a href=&quot;https://itunes.apple.com/us/app/eclipsecon-europe/id1280396790?ls=1&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;iOS&lt;/a&gt; version&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/download-conference-app&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/App%20screens_1.png?itok=624AA68h&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 17 Oct 2018 20:18:44 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Download the Conference App!</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/748 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/download-conference-app</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Thanks to EclipseSource and their Tabris framework, the EclipseCon Europe conference app is ready for download.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.eclipsesource.eclipsecon&quot; target=&quot;_blank&quot;&gt;Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/eclipsecon-europe/id1280396790?ls=1&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;iOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/download-conference-app&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/app_image_square_0.png?itok=itBXZCK4&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 17 Oct 2018 19:34:17 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

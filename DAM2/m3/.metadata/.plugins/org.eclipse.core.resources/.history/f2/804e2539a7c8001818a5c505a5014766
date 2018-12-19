@@ -1,0 +1,47 @@
+package tad;
+
+import java.util.Scanner;
+
+public class Main {
+
+	/* Llegir paraules separades per caracters blancs de la entrada estandard
+	 * No li importa si hi ha diverses linies en el text d'entrada.
+	 */
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		sc.useDelimiter("\\s+"); //qualsevol grup d'espais en blanc (també tabs) 
+		
+		MyPilaString pilaParaules = new MyPilaString(10000);
+		String w="";
+
+		while(sc.hasNextLine() && w.equals("FI.") == false) {
+			w = sc.next();
+			if(w.contains(".") && w.equals("FI.")==false) {
+				
+				w=w.substring(0, w.length()-1);
+				pilaParaules.empilar(w);
+				int iteracions=pilaParaules.grandaria();
+				
+				for(int i=0;i<iteracions;i++) {
+					
+					System.out.print(pilaParaules.desempilar());
+					
+					if(i!=iteracions-1) {	//espais menys a la ultima paraula
+						System.out.print(" ");
+					}
+					
+				}
+				
+				System.out.print(". ");
+				
+			}else {
+				pilaParaules.empilar(w);
+			}
+			
+		}
+
+		sc.close();
+	}
+
+}

@@ -1,0 +1,41 @@
+package suma_vector_threads;
+
+public class Main extends Thread{
+
+	int arrayCompartit[]= {1,1,1,1,1,1,1,1,1};
+	static int nombreThreads;
+	int iteracionsThread=arrayCompartit.length/nombreThreads;
+	
+	public void run() {
+		int nombreThread = Integer.parseInt(Thread.currentThread().getName());
+		int sumaPart=0;
+		int posInici=nombreThread*iteracionsThread;
+		int posFinal=posInici+iteracionsThread;
+		
+		for(int i=posInici; i < posFinal; i++) {
+			sumaPart+=arrayCompartit[i];
+		}
+		
+		System.out.println(sumaPart);
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+		Main obj = new Main();
+		
+		Thread t0 = new Thread(obj);
+   		Thread t1 = new Thread(obj);
+   		Thread t2 = new Thread(obj);
+	
+   		t0.setName("0");
+   		t1.setName("1");
+   		t2.setName("2");
+   		
+   		nombreThreads=3;
+   		
+   		t0.start();
+   		t1.start();
+   		t2.start();
+
+	}
+
+}

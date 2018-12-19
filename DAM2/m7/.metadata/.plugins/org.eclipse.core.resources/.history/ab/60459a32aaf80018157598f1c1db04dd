@@ -1,0 +1,49 @@
+package examenFitxers;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introdueix la ruta del arxiu:");
+		String ruta = sc.next()+"\\numeros.txt";
+		File file = new File(ruta);		//Instanciar fitxer
+		FileOutputStream fw = new FileOutputStream(file);	//Writer
+		FileInputStream fr = new FileInputStream(file);		//Reader
+		int valor;
+		int total = 0;
+		
+		if(file.canWrite() == false){	//Error de permisos
+			System.out.println("No es pot escriure al fitxer");
+		}
+		
+		System.out.println("Introdueix valors a escriure(0 per acabar): ");
+		valor = sc.nextInt();
+		
+		//ESCRIURE VALORS
+		while(valor != 0) {
+			fw.write(valor);
+			valor = sc.nextInt();
+		}
+		
+		fw.flush();
+		fw.close();
+		
+		//LLEGIR VALORS
+		do{	
+			valor = fr.read();
+			if(valor != -1) 
+				total += valor;
+		}while(valor != -1);
+		
+		System.out.println("Suma dels valors: "+total); //Mostrar suma
+		
+		fr.close();
+	}
+
+}

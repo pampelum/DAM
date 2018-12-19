@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;llista.MyList.afegirDespresPocicio(...)&apos; to &apos;afegirDespresPosicio&apos;&#x0D;&#x0A;- Original project: &apos;llista&apos;&#x0D;&#x0A;- Original element: &apos;llista.MyList.afegirDespresPocicio(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;llista.MyList.afegirDespresPosicio(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;afegirDespresPocicio&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;llista{MyList.java[MyList~afegirDespresPocicio~QNode;~I" name="afegirDespresPosicio" references="true" stamp="1539879234256" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+package prova;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Map<String , Objecte> map = new HashMap<String ,  Objecte>();
+		Scanner sc = new Scanner(System.in);
+		sc.useDelimiter("\\s+");
+		String paraula = "";
+		
+		do{	//bucle fins que troba "0" a l'entrada
+			
+			paraula = sc.next();
+			if(paraula.equals("0") == false) {
+				map.put(paraula, new Objecte(paraula));	//Crear objecte i introduirlo al map
+			}
+			
+		}while(paraula.equals("0") == false);
+		
+		System.out.println(map.get("Hola").getNom());
+		
+	}
+
+	
+}

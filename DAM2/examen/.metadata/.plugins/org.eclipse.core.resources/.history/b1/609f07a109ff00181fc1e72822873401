@@ -1,0 +1,24 @@
+package tarta;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int totalTableta = 9;
+		int necessari = 20;
+		
+		int hold;
+		
+		hold = necessari / totalTableta;
+		
+		if(hold * totalTableta >= necessari) {
+			System.out.println(hold);
+		}else {
+			System.out.println(hold+1);
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+package tarta;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int iteracions = sc.nextInt();
+		int tabletaH, tabletaV;
+		int necessari;
+		int resultat;
+		
+		for(int i = 0; i < iteracions; i++) {
+			tabletaH = Integer.parseInt(sc.next());
+			tabletaV = Integer.parseInt(sc.next());
+			necessari = Integer.parseInt(sc.next());
+			
+			resultat = necessari / (tabletaH * tabletaV) ;
+			
+			if(resultat * (tabletaH * tabletaV) >= necessari) {
+				System.out.println(resultat);
+			}else {
+				System.out.println(resultat+1);
+			}
+		}
+		
+		
+	}
+
+}

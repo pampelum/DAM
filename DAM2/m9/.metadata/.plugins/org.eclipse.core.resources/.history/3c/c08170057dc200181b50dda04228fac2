@@ -1,0 +1,32 @@
+public class Main extends Thread {
+	int threadIndex = -1;
+	public Main(int i){
+	threadIndex = i;
+	}
+	
+	//el mètode run() és invocat per Thread.start()
+	public void run(){
+		int inici = threadIndex*10;
+		int final = (threadIndex+1)*1;0
+		
+		for(int x=inici; x<; x++) {
+			System.out.print(x+" ");
+		}
+		System.out.println();
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+		Thread t1 = new Thread(new Main(0));
+		Thread t2 = new Thread(new Main(1));
+		Thread t3 = new Thread(new Main(2));
+		Thread t4 = new Thread(new Main(3));
+		Thread t5 = new Thread(new Main(4));
+		
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+		t5.start();
+	}
+}

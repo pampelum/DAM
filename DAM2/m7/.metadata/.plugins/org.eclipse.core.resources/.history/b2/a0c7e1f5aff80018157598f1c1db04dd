@@ -1,0 +1,10 @@
+package examenFitxers;
+
+public class Exercici3_examen {
+
+	public static void main(String[] args) {
+		System.out.println((int)'b');
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package examenFitxers;
+
+public class Exercici3_examen {
+
+	public static void main(String[] args) {
+		final int diferencia = (int)('a') - (int)('A');
+		
+		System.out.println(diferencia);
+
+	}
+
+}
