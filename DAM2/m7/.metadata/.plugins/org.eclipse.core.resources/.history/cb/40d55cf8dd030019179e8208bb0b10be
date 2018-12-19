@@ -1,0 +1,54 @@
+package application;
+	
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.VBox;
+
+
+public class Main extends Application {
+	Label lblTitle = new Label("Titol");
+	Label lblIsbn = new Label("ISBN");
+	Label lblAuthor = new Label("Autor");
+	Label lblYear = new Label("Any");
+	Label lblGenere = new Label("Genere");
+	Label lblLanguage = new Label("Idioma");
+	Label lblPublisher = new Label("Editorial");
+	
+	TextField txtTitle;
+	TextField txtIsbn;
+	TextField txtAuthor;
+	TextField txtYear;
+	TextField txtGenere;
+	TextField txtLanguage;
+	TextField txtPublisher;
+	
+	Button btnBack;
+	Button btnAccept;
+	
+	@Override
+	public void start(Stage primaryStage) {
+		try {
+			GridPane root = new GridPane();
+			Scene scene = new Scene(root,400,400);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			root.add(lblTitle,0,0);
+			//root.add(lblTitle,0,1);
+			root.add(lblAuthor,0,1);
+			//root.add(lblAuthor,1,1);
+			primaryStage.setScene(scene);
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
