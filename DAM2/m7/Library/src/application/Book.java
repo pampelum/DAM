@@ -19,8 +19,8 @@ public class Book {
 		this.setAuthor(author);
 		this.setYear(year);
 		this.setGenere(genere);
-		
-		
+		this.setLanguage(language);
+		this.setPublisher(publisher);
 	}
 	
 	
@@ -78,5 +78,14 @@ public class Book {
 
 	public void setPublisher(String publisher) {
 		this.publisher = publisher;
+	}
+
+
+	public String toString() {
+		String returnString;
+		
+		returnString ="[" + isbn + " " + title + " " + author + " " + year + " " + genere + " " + language + " " + publisher + "]";
+		
+		return returnString;
 	}
 }
