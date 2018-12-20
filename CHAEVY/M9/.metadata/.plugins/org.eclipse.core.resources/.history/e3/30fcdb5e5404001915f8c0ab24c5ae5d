@@ -1,0 +1,40 @@
+package producerConsumer;
+
+public class Threads {
+
+	public static void main(String[] args) {
+Main obj = new Main();
+		
+		Thread t1 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					obj.Produce();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+						
+		});
+		
+		Thread t2 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					obj.Consumer();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+			
+		});
+	}
+
+	}
+
+}

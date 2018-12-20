@@ -1,0 +1,21 @@
+package generics_ex;
+
+public class GenericsTypeOld <T> {
+
+	private T t;
+
+	public T get() {
+		return t;
+	}
+
+	public void set(T t) {
+		this.t = t;
+	}
+
+   public static void main(String args[]){
+		GenericsTypeOld <Number> type = new GenericsTypeOld<>();
+		type.set(new Float(3)); 
+		Number str = type.get(); //type casting, error prone and can cause ClassCastException
+		System.out.println(str);
+	}
+}

@@ -1,0 +1,36 @@
+package exm_proba;
+
+public class Main extends Thread {
+	final static int Midaarray = 230;
+	static double arrayresultats [][] = new double [4][Midaarray];
+	
+	public void run() {
+		int id_thread = Integer.parseInt(Thread.currentThread().getName().toString());
+		
+		switch(id_thread) {
+		case 1://Multipicar
+			for(int i = 0; i < Midaarray; i++) {
+				arrayresultats[0][i] = 22*i;
+			}
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

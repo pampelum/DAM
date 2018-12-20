@@ -1,0 +1,82 @@
+package exm_proba;
+
+import java.time.Duration;
+import java.time.Instant;
+
+public class Main2 extends Thread{
+	final static int mida = 230;
+	static double arrayresult[][] = new double [4][mida];
+
+	public void run() {
+		int id_thread = Integer.parseInt(Thread.currentThread().getName().toString());
+		
+		switch(id_thread) {
+		case 1://Multiplicar
+			for(int i = 0; i < mida; i++) {
+				arrayresult[0][i] = 22 * i;
+			}
+			break;
+		case 2://Dividir
+			for(int i = 0; i < mida; i++) {
+				if(i == 0) {
+					arrayresult[1][i] = 0;
+				}else {
+					arrayresult[1][i] = (double)22 / i;
+				}	
+			}
+			break;
+		case 3://Exponent
+			for(int i = 0; i < mida; i++) {
+				arrayresult[2][i] = Math.pow(22, i);
+			}
+
+			break;
+		case 4://Arrel
+			for(int i = 0; i < mida; i++) {
+				arrayresult[3][i] = Math.sqrt(22 * i);
+			}
+			break;
+		}
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		Main2 obj = new Main2();
+		
+		Thread t1 = new Thread(obj);
+		Thread t2 = new Thread(obj);
+		Thread t3 = new Thread(obj);
+		Thread t4 = new Thread(obj);
+		
+		t1.setName("1");
+		t2.setName("2");
+		t3.setName("3");
+		t4.setName("4");
+		
+		Instant start = Instant.now();
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+		
+		t1.join();
+		t2.join();
+		t3.join();
+		t4.join();
+		
+		Instant end = Instant.now();
+		Duration temps = Duration.between(start, end);
+		imprimir();
+		System.out.println("Temps tardat en calcular: " + temps.toMillis() + " segons");
+	}
+
+	public static void imprimir() {
+		for(int i = 0; i < mida; i++) {
+			for(int x = 0; x < 4; x++) {
+				System.out.print(arrayresult[x][i]);
+			}
+			System.out.println();
+		}
+	}
+}

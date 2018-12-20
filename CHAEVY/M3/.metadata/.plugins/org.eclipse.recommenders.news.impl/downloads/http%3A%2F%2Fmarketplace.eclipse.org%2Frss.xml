@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>jSparrow - Automatical Java Code Refactoring</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-refactoring</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-11-16 06:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h3&gt;&lt;strong&gt;NEW RULES FOR JAVA 10!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Automatical Java Code Refactoring - &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; jSparrow &lt;/strong&gt;is an automatic Eclipse PlugIn, which detects and replaces threats in Java sources with a rule based approach. It automatically improves your Java code and &lt;strong&gt;transforms &lt;/strong&gt;it to Java 8/9/10 user-guided and safe.&lt;/p&gt;
+&lt;p&gt;
+jSparrow has a set of &lt;strong&gt;rules &lt;/strong&gt;now, which are grouped into seven categories (see rule matrix in our screenshots) and sets a standard logging:&lt;br /&gt;
+    • String manipulation&lt;br /&gt;
+    • Formatting&lt;br /&gt;
+    • Coding Convention&lt;br /&gt;
+    • Performance&lt;br /&gt;
+    • Readability&lt;br /&gt;
+    • Old language constructs&lt;br /&gt;
+    • Lambda&lt;br /&gt;
+    • Logging&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Removal &lt;/strong&gt;of potential &lt;strong&gt;bugs and code smells&lt;/strong&gt; is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these threats with its rules. You can group the profiles into individual &lt;strong&gt;rule profiles&lt;/strong&gt;, which also can be &lt;strong&gt;exported &lt;/strong&gt;and &lt;strong&gt;imported &lt;/strong&gt;to share them within your development team.&lt;/p&gt;
+&lt;p&gt;
+Being up to date with the latest Java standards is nornally requiring a lot of manual software maintenance work. &lt;strong&gt;jSparrow upgrades &lt;/strong&gt;old code-artifacts to new state-of-the-art programming practices. The usage of jSparrow´s &lt;strong&gt;full version&lt;/strong&gt; allows you to save a lot of valuable time, while offering the option of &lt;strong&gt;automatically upgrading&lt;/strong&gt; to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;improved his Preview Wizard and the Summary Page. It now &lt;strong&gt;estimates &lt;/strong&gt;the&lt;strong&gt; time to fix issues&lt;/strong&gt; manually. The preview wizard shows the number of issues fixed and estimates your &lt;strong&gt;saved time&lt;/strong&gt;. (see screenshots or our release notes: &lt;a href=&quot;https://jsparrow.eu/changelog/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.eu/changelog/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Once you installed jSparrow in your Eclipse – you will SAVE TIME&amp;amp; MONEY in modernizing your Java sources.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow is now also available as Mave PlugIn.&lt;/p&gt;
+&lt;p&gt;Next Release: 21.11.2018 - Be aware of two new rules and a new Welcome screen&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LATEST VERSION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow Release 2.6.0&lt;/p&gt;
+&lt;p&gt;jSparrow Maven PlugIn 1.0.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two major releases&lt;/strong&gt; per year&lt;/p&gt;
+&lt;p&gt;    21st June – Midsummer Release&lt;br /&gt;
+ &lt;strong&gt;  &lt;/strong&gt; 21st December – Winter solstice Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly Rule releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we developed new rules, they will be released on the 21st of each month - (if the 21st isn’t an Austrian working day- the release will be postponed one month)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Tuesday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-refactoring#comments</comments>
+  </item>
+  <item>
+    <title>IBM Operational Decision Manager for Developers v 8.10.0 - Rule Designer</title>
+    <link>http://marketplace.eclipse.org/content/ibm-operational-decision-manager-developers-v-8100-rule-designer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-11-15 12:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 09:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ftrible/listings&quot; title=&quot;François Trible&quot;&gt;François Trible&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Rule Designer is the Eclipse-based development environment of IBM Operational Decision Manager for Developers, for making rule applications that automate the implementation of business policies. Developers benefit from a short learning curve, and best-of-class power and efficiency for rule applications development.&lt;/p&gt;
+&lt;p&gt;Rule Designer key features include co-editing and debugging of Java code and rules, auto correction of rules, decision flow control, code-generation wizards, source code control integration, and conflict and redundancy detection.&lt;/p&gt;
+&lt;p&gt;When used with IBM Operational Decision Manager for Developers, Rule Designer completes a collaborative work environment for developers to automate a company&#039;s business policies for in-house or web-based use.&lt;/p&gt;
+&lt;p&gt;For additional information and support, go to the IBM Operational Decision Manager Developer Center (&lt;a href=&quot;https://developer.ibm.com/odm/&quot; rel=&quot;nofollow&quot;&gt;https://developer.ibm.com/odm/&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 14 Nov 2018 14:54:03 +0000</pubDate>
+ <dc:creator>ftrible</dc:creator>
+ <guid isPermaLink="false">4370619 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-operational-decision-manager-developers-v-8100-rule-designer#comments</comments>
+  </item>
+  <item>
+    <title>ESP32 C/C++ Development Tools</title>
+    <link>http://marketplace.eclipse.org/content/esp32-cc-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-11-15 05:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Espressif%20Systems%22&quot;&gt;Espressif Systems&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-10-26 06:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dyakovlev/listings&quot; title=&quot;Dmitry Yakovlev&quot;&gt;Dmitry Yakovlev&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The ESP32 C/C++ Development Tools contains two plug-ins:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;ESP32 C/C++ OpenOCD Debuging&lt;/li&gt;
+&lt;li&gt;ESP32 C/C++ Cross Compiler&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The ESP32 C/C++ OpenOCD Debuging provides GDB debug functionality through OpenOCD. The plugin initialize OpenOCD and GDB to debug a user application. Allows to reset the target, collect system view data and configure debug parameters.&lt;/p&gt;
+&lt;p&gt;The ESP32 C/C++ Cross Compiler allows to import Esp32 make projects into the Eclipse.&lt;/p&gt;
+&lt;p&gt;The solution requires preinstalled ESP-IDF framework and OpenOCD binaries for Esp32.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The ESP-IDF could be downloaded from &lt;a href=&quot;https://github.com/espressif/esp-idf&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/esp-idf&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The OpenOCD for Esp32 could be downloaded from: &lt;a href=&quot;https://github.com/espressif/openocd-esp32&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/openocd-esp32&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 26 Oct 2018 10:44:38 +0000</pubDate>
+ <dc:creator>dyakovlev</dc:creator>
+ <guid isPermaLink="false">4340518 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/esp32-cc-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>g9 Modeling Tools</title>
+    <link>http://marketplace.eclipse.org/content/g9-modeling-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Esito-g9-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-11-15 05:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Esito%22&quot;&gt;Esito&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-06-26 10:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dbyesen/listings&quot; title=&quot;Dag Bøyesen&quot;&gt;Dag Bøyesen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Are you developing Java applications that are taking forever to complete? Have you considered implementing web based UIs using React along with RESTful web services, but the time to code is overwhelming? Are your domain experts frequently changing their business requirements resulting in major code rewrites? If so, consider the &lt;strong&gt;g9 &lt;/strong&gt;Low-Code Modeling and code generation tools.&lt;/p&gt;
+&lt;p&gt;As a low-code development platform, &lt;strong&gt;g9&lt;/strong&gt; is a suite of Eclipse plugins that integrates with the Java Development Tools that can manage the complexities of application development. It follows a domain driven methodology with automatic code generation providing visual UI design tools. Domain experts can focus their efforts on the domain logic and capture the knowledge in a domain model. The g9 tools can import the domain model into its workspace and allow users to add abstract data, model user interfaces using the WYSIWYG visual editor, model databases and specify web services. Using the supplied generators, both front-end and back-end application code can be generated, some of which make use of the included runtime libraries. This eliminates the need to code much application functionality.&lt;/p&gt;
+&lt;p&gt;Install &lt;strong&gt;g9 Modeling Tools&lt;/strong&gt;, restart Eclipse and open the g9 perspective. Select &lt;strong&gt;File &amp;gt; New &amp;gt; Example...&lt;/strong&gt; to open an existing example project (see the Screenshots).&lt;/p&gt;
+&lt;p&gt;Complete documentation is available from &lt;strong&gt;Help &amp;gt; Help Contents&lt;/strong&gt;. Select &lt;strong&gt;g9 Documentation &amp;gt;  Getting Started &amp;gt; Getting started with g9&lt;/strong&gt; or download the pdf from &lt;a href=&quot;http://www.esito.no/dl/GettingStartedWithg9Modeling.pdf&quot; rel=&quot;nofollow&quot;&gt;http://www.esito.no/dl/GettingStartedWithg9Modeling.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;g9 Modeling Tools&lt;/strong&gt; help programmers become more efficient and more consistent by generating code, saving you time and money. Included with g9 are a series of generators used to generate the various parts of a java application utilizing various frameworks including Hibernate, Spring and Castor. Front-end supported UIs include React, ICEfaces, Angular/Bootstrap and Swing. Written in Xtend, the g9 generators are very readable and more concise than straight Java although generators can be written in any JVM compatible language (e.g. Java/Scala). Also, generators can be copied to create new variants or they can be modified to adhere to company standards and adapt best practices. You may even create a generator for another language. As business requirements change, the domain model can be updated and code regenerated without worrying about overwriting custom handwritten code. If you are spending too much time writing boilerplate code and implementing changing business requirements into your existing application, consider moving to a &lt;strong&gt;g9 low-code&lt;/strong&gt; development environment.&lt;/p&gt;
+&lt;p&gt;To do this you need the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The g9 Eclipse plugins.&lt;/li&gt;
+&lt;li&gt;A code generator. Included with g9 are Dialog generators for developing user interfaces, Domain generators for generating java classes, Web Service generators, Object Selection generators for CRUD services and SOAP message generation and Database generators for Hibernate mapping and schema scripts (For a full list of the g9 generators, please visit &lt;a href=&quot;http://www.esito.no/en/generators&quot; rel=&quot;nofollow&quot;&gt;http://www.esito.no/en/generators&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A supported domain model. These include a UML model using Enterprise Architect, an Ecore/Xcore model using the Eclipse Modeling Framework or a WSDL document,  Also supported is using Java source code with annotations to describe the domain model. You can also connect to an existing database and convert the database schema to an Ecore/Xcore model or to Java source.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Download and try out g9 and check if this is something you and your team can benefit from.&lt;/p&gt;
+&lt;p&gt;Please visit &lt;a href=&quot;http://www.esito.no/en/download&quot; rel=&quot;nofollow&quot;&gt;http://www.esito.no/en/download&lt;/a&gt; for more information.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 26 Jun 2017 14:27:28 +0000</pubDate>
+ <dc:creator>dbyesen</dc:creator>
+ <guid isPermaLink="false">3512486 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/g9-modeling-tools#comments</comments>
+  </item>
+  <item>
+    <title>iText 7 pdfDebug</title>
+    <link>http://marketplace.eclipse.org/content/itext-7-pdfdebug</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pdfDebugRGB2-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-11-15 04:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22iText%20Software%22&quot;&gt;iText Software&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-09-30 11:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/avangasse/listings&quot; title=&quot;Amedee Van Gasse&quot;&gt;Amedee Van Gasse&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Program PDF with a crystal-clear view&lt;/h2&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;p&gt;While you’re making PDF files and an error occurs, tracing where the problem is located can be hard. That’s why iText has developed the pdfDebug add-on, which allows you to view your PDF file’s internal content structure, content streams and allows you to browse the document in a logical manner. It is a highly practical tool and currently the only one of its kind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iText 7 pdfDebug: Key advantages&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Only PDF programming debugging tool in the world&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrated into your own development environment&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Saves time by letting you catch and correct bugs quickly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reflects the internal logic and structure of your documents&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Integrated into your development tools&lt;/h2&gt;
+&lt;p&gt;One of pdfDebug’s most conspicuous features is that you can make it a seamless part of your integrated development environment. With a clear debugging overview, you can quickly locate and fix bugs in your content streams or data structure right at the source without requiring frustrating and time-consuming searches.&lt;/p&gt;
+&lt;h2&gt;The strength of structure&lt;/h2&gt;
+&lt;p&gt;pdfDebug illuminates the advantages of creating PDFs with iText 7 – where most generic PDF tools only allow the creation of &quot;flat&quot; PDF files, iText 7 can embed rich content and metadata that makes using a debugging tool all the more rewarding. With a clear debugging overview, you can quickly locate and fix bugs in your content streams or data structure right at the source without requiring frustrating and time-consuming searches.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 30 Sep 2016 15:17:48 +0000</pubDate>
+ <dc:creator>avangasse</dc:creator>
+ <guid isPermaLink="false">3098725 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/itext-7-pdfdebug#comments</comments>
+  </item>
+  <item>
+    <title>RepreZen API Studio</title>
+    <link>http://marketplace.eclipse.org/content/reprezen-api-studio</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 16:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22RepreZen%22&quot;&gt;RepreZen&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-10-27 21:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tepsteinccr/listings&quot; title=&quot;Ted Epstein&quot;&gt;Ted Epstein&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4&gt;&lt;strong&gt;Now with advanced OpenAPI 3.0.2 validation, code generation &amp;amp; multi-file support!&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;RepreZen API Studio is ready for &lt;a href=&quot;http://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md&quot; rel=&quot;nofollow&quot;&gt;OAS 3.0.2&lt;/a&gt; with complete validation, multi-file support, and the new OpenAPI‑Generator. &lt;a href=&quot;https://www.reprezen.com/blog/reprezen-openapi-3.0-upgrade-now-is-the-time&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Learn more...&lt;/a&gt; &lt;/p&gt;
+&lt;h2&gt;Powerful Swagger‑OpenAPI Design, Documentation &amp;amp; Development&lt;/h2&gt;
+
+&lt;p&gt;RepreZen API Studio is the most productive REST API design environment, with everything you need to design, document and deliver world-class APIs and microservices in a fraction of the time.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&quot;Best Swagger/OpenAPI editor out there... &lt;/strong&gt;RepreZen makes it so easy to get your OpenAPI definition just right without wrestling with the fiddly little details of YAML syntax. I wasted more days than I care to admit on stuff that RepreZen just &#039;handles&#039;. Try lots of products. Give all the programming editors a shot. You&#039;ll learn quickly that this is the best solution for creating OpenAPI definitions. Or you could just save yourself the pain.&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- &lt;a href=&quot;https://www.g2crowd.com/products/reprezen-api-studio/reviews&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Mark Davis on G2Crowd&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Key capabilities:&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Model your APIs&lt;/strong&gt; with industry-standard &lt;a href=&quot;http://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger–OpenAPI 2.0&lt;/a&gt;, &lt;a href=&quot;http://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI 3.0.2&lt;/a&gt; or with &lt;a href=&quot;http://rapid-api.org/rapid-ml&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RAPID-‑ML&lt;/a&gt;, an innovative, domain-driven API modeling language.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full support for OpenAPI 3.0 editing&lt;/strong&gt;, based on the &lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;current 3.0.1 specification&lt;/a&gt;, with live views and code generators for Documentation, Diagram and &lt;a href=&quot;https://github.com/swagger-api/swagger-ui&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger UI v3&lt;/a&gt;. Here&#039;s how you can &lt;a href=&quot;https://support.reprezen.com/support/solutions/articles/24000008102-does-reprezen-api-studio-work-with-openapi-3-0-&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;get started with OpenAPI v3&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Full-featured Editors &lt;/strong&gt;for all supported languages, with code assist, customizable code templates, detailed validation messages, outline view, customizable fonts &amp;amp; syntax color themes.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Live documentation and diagram views&lt;/strong&gt; give you immediate insight to your API design, as you edit. You can also generate and publish these as documentation for your API client developers.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Easily supports large multi-file projects&lt;/strong&gt;. Share and standardize schema definitions and API components across projects. Split large and complex Swagger Specifications across multiple files for easier navigation and team collaboration.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Built-in sandbox testing&lt;/strong&gt; with the integrated mock service and Swagger UI view.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Powerful, extensible code gen framework&lt;/strong&gt; lets you build &lt;a href=&quot;http://docs.reprezen.com/#code-gen&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;custom generators&lt;/a&gt; with powerful Xtend templates and integrated debugging. Also fully supports Swagger Codegen, OpenAPI Generator, and NSwag open source generators. Over 200 generators ready to use, including server implementation scaffolds, client libraries, documentation and more.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Maven and Gradle build automation &lt;/strong&gt;for code generation, and a convenient YAML configuration format for each generation target that provides access code gen options. Standard and custom generators all use this project structure to run inside API Studio, from the command line, or from continuous integration.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;Example projects help you get started quickly and come up to speed with the features of &lt;a href=&quot;http://rapid-api.org/rapid-ml/index.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RAPID-ML&lt;/a&gt;, &lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger‑OpenAPI 2.0&lt;/a&gt; and &lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI 3.0&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Runs on Eclipse&lt;/strong&gt; as a standalone RCP app, or as a plug-in feature in a standard Eclipse IDE. You can do your work in your primary development space, with full access to all of your resources, not stuck in a browser sandbox.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Plug-in team collaboration &lt;/strong&gt;with Eclipse integrations. API Studio supports a wide range of version control, issue trackers, and continuous integration tools. Git and GitHub are fully supported. Collaboration works on the platforms you&#039;re already using, so you don&#039;t have to manage a separate set of teams and permissions.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Your APIs. Your code. No limits.&lt;/strong&gt; RepreZen doesn&#039;t hold your API designs hostage, and won&#039;t put any limits on the number of APIs or resources you create. So go ahead and redesign your world as microservices. Edit, test, generate, collaborate, publish, deploy... and become the stuff of API legend.&lt;/li&gt;
+&lt;/ul&gt;&lt;dl&gt;&lt;dt&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;This Marketplace item installs &lt;a href=&quot;https://support.reprezen.com/support/solutions/articles/24000009587-reprezen-api-studio-installation-options-desktop-and-eclipse-ide-&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;API Studio for Eclipse&lt;/a&gt;, the add-on solution for standard Eclipse IDE distributions. &lt;a href=&quot;https://support.reprezen.com/support/solutions/articles/24000009587-reprezen-api-studio-installation-options-desktop-and-eclipse-ide-&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;API Studio Desktop&lt;/a&gt;, a standalone RCP application, is &lt;a href=&quot;https://www.reprezen.com/trial-offer&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;available here&lt;/a&gt;.&lt;/dd&gt;
+&lt;/dl&gt;&lt;h3&gt;Code Generation&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/swagger-api/swagger-codegen&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger Codegen&lt;/a&gt; and &lt;a href=&quot;https://github.com/OpenAPITools/openapi-generator&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI Generator&lt;/a&gt; are fully supported in RepreZen API Studio. Following are partial listings of available code generation templates:&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;API Service Implementation Templates (partial listing)&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;C#/ASP.NET 5.0&lt;br /&gt;
+C# for .NET NancyFx Server&lt;br /&gt;
+Go&lt;br /&gt;
+Haskell Servant&lt;br /&gt;
+Java CXF (JAX-RS)&lt;br /&gt;
+Java / JAX-RS v2.0&lt;br /&gt;
+Java Inflector&lt;br /&gt;
+Java Jersey (JAX-RS)&lt;br /&gt;
+Java RESTEasy (JAX-RS)&lt;br /&gt;
+Java Spring (Boot, MVC or CloudFeign)&lt;br /&gt;
+Node.js&lt;br /&gt;
+PHP Lumen Server&lt;br /&gt;
+PHP Silex Server&lt;br /&gt;
+PHP Slim Server&lt;br /&gt;
+Python Flask Connexion&lt;br /&gt;
+Rails5&lt;br /&gt;
+Ruby Sinatra&lt;br /&gt;
+Scala Scalatra&lt;/p&gt;
+&lt;p&gt;
+&lt;u&gt;&lt;strong&gt;API Client Libraries (partial listing)&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;Akka-Scala&lt;br /&gt;
+Android&lt;br /&gt;
+C#&lt;br /&gt;
+C# for.NET 2.0&lt;br /&gt;
+C++&lt;br /&gt;
+C++ QT5&lt;br /&gt;
+Clojure&lt;br /&gt;
+Dart&lt;br /&gt;
+Flash&lt;br /&gt;
+Go&lt;br /&gt;
+Groovy&lt;br /&gt;
+Haskell Servant&lt;br /&gt;
+Java&lt;br /&gt;
+JavaScript&lt;br /&gt;
+JavaScript Closure Angular&lt;br /&gt;
+JMeter&lt;br /&gt;
+Objective-C&lt;br /&gt;
+Perl&lt;br /&gt;
+PHP&lt;br /&gt;
+Python&lt;br /&gt;
+Ruby&lt;br /&gt;
+Scala&lt;br /&gt;
+Scala Akka&lt;br /&gt;
+Scala Async&lt;br /&gt;
+Swagger-YAML&lt;br /&gt;
+Swagger-JSON&lt;br /&gt;
+Swift&lt;br /&gt;
+Tizen&lt;br /&gt;
+TypeScript - Angular&lt;br /&gt;
+TypeScript - Angular2&lt;br /&gt;
+TypeScript - Fetch&lt;br /&gt;
+TypeScript-Node&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Documentation, etc. (partial listing)&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;HTML (Static)&lt;br /&gt;
+HTML (Dynamic)&lt;br /&gt;
+RepreZen HTML Documentation&lt;br /&gt;
+Swagger (JSON)&lt;br /&gt;
+Swagger (YAML)&lt;/p&gt;
+&lt;h3&gt;More information:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://reprezen.com/swagger-tools&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Product Video and Feature Tour&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://reprezen.com/pricing&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Plans and Pricing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://goo.gl/dQSwjU&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Getting Started Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://support.reprezen.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community &amp;amp; Support Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://RepreZen.com/blog&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 28 Oct 2016 01:28:20 +0000</pubDate>
+ <dc:creator>tepsteinccr</dc:creator>
+ <guid isPermaLink="false">3138718 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/reprezen-api-studio#comments</comments>
+  </item>
+  <item>
+    <title>KaiZen OpenAPI Editor</title>
+    <link>http://marketplace.eclipse.org/content/kaizen-openapi-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/KaiZen%20Symbol%20%28v2%29.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 16:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22RepreZen%22&quot;&gt;RepreZen&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-05-06 00:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tepsteinccr/listings&quot; title=&quot;Ted Epstein&quot;&gt;Ted Epstein&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;NOW WITH COMPLETE SUPPORT FOR OPEN API 3.0.2 spec, full compatibility with Eclipse Oxygen &amp;amp; Photon releases. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor&quot; rel=&quot;nofollow&quot;&gt;KaiZen OpenAPI Editor&lt;/a&gt; is RepreZen&#039;s open source, Eclipse-based editor for the industry-standard &lt;a href=&quot;http://openapis.org/&quot; rel=&quot;nofollow&quot;&gt;OpenAPI Specification&lt;/a&gt; language, based on Swagger.  This is the same full-featured editor (formerly known as SwagEdit) that powers Swagger-OpenAPI in the popular &lt;a href=&quot;https://marketplace.eclipse.org/content/reprezen-api-studio&quot; rel=&quot;nofollow&quot;&gt;RepreZen API Studio&lt;/a&gt; solution.&lt;/p&gt;
+&lt;h2&gt;Swagger-OpenAPI Zen In Your Eclipse IDE&lt;/h2&gt;
+&lt;p&gt;Features Include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;FULLY COMPATIBLE with OpenAPI 3.0.2&lt;/strong&gt;, the &lt;a href=&quot;http://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;newest version&lt;/a&gt; of the industry-standard API description language. Here&#039;s how you can &lt;a href=&quot;http://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/OPEN_API_V3_SUPPORT.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;get started with KaiZen and OpenAPI v3&lt;/a&gt;.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full OpenAPI 2.0 (Swagger) compatibility&lt;/strong&gt;, the most widely used API description format. &lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syntax highlighting&lt;/strong&gt; with configurable colors&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content assist&lt;/strong&gt; with custom templates. Scope cycling makes it easy to insert references to definitions anywhere in the current file, project or workspace.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time validation&lt;/strong&gt;&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-file support&lt;/strong&gt; with scope-cycling code assist on $ref properties&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outline view&lt;/strong&gt;&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick Outline navigation&lt;/strong&gt; with scope cycling, to navigate anywhere within the current file, project or workspace.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hyperlink navigation&lt;/strong&gt; through $ref properties&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Requires Eclipse Oxygen release or later.&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;h4&gt;KaiZen OpenAPI Editor on GitHub&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Project Page on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/GETTING_STARTED.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Getting Started Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/TROUBLESHOOTING.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Troubleshooting Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/DEVELOPERS_GUIDE.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Developer&#039;s Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;OpenAPI Specifications&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger-OpenAPI 2.0 Specification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI 3.0.2 Specification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;Other Links&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;RepreZen Blog:&lt;br /&gt;&lt;a href=&quot;https://www.reprezen.com/blog/introducing-kaizen-openapi-editor-the-open-source-eclipse-editor-for-oas-v2-and-v3&quot; rel=&quot;nofollow&quot;&gt;Introducing KaiZen OpenAPI Editor: the open source Eclipse editor for OAS 2.0 &amp;amp; 3.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;InfoQ:&lt;br /&gt;&lt;a href=&quot;https://www.infoq.com/news/2017/06/reprezen-kaizen&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RepreZen Releases KaiZen Open-Source Editor and Parser for Open API 3.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 06 May 2017 04:51:50 +0000</pubDate>
+ <dc:creator>tepsteinccr</dc:creator>
+ <guid isPermaLink="false">3429028 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/kaizen-openapi-editor#comments</comments>
+  </item>
+  <item>
+    <title>Microclimate Developer Tools Beta</title>
+    <link>http://marketplace.eclipse.org/content/microclimate-developer-tools-beta</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/mdt-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 16:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-10-04 13:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jkim/listings&quot; title=&quot;Joseph Kim&quot;&gt;Joseph Kim&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;*Beta* An Eclipse IDE for working with Microclimate applications. Import a Microclimate application into Eclipse, link to a Microclimate project and develop and debug all from within Eclipse.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 04 Oct 2018 17:18:55 +0000</pubDate>
+ <dc:creator>jkim</dc:creator>
+ <guid isPermaLink="false">4303979 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/microclimate-developer-tools-beta#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse IDE Integration for ALM Octane</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-ide-integration-alm-octane</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/octane_logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 13:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Micro%20Focus%22&quot;&gt;Micro Focus&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-05 07:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atothnvp/listings&quot; title=&quot;Andras Toth&quot;&gt;Andras Toth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;Eclipse IDE Integration for ALM Octane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compatible with ALM Octane version 12.55.4 and above.&lt;/p&gt;
+&lt;p&gt;Allows you to manage your backlog items directly from you IDE.&lt;/p&gt;
+&lt;p&gt;This project is open-source, if you wish to contribute, please visit: &lt;a href=&quot;https://github.com/MicroFocus/octane-eclipse-plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/MicroFocus/octane-eclipse-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Certain versions of software and/or documents (&quot;Material&quot;) accessible here may contain branding from Hewlett-Packard Company (now HP Inc.) and Hewlett Packard Enterprise Company.  As of September 1, 2017, the Material is now offered by Micro Focus, a separately owned and operated company.  Any reference to the HP and Hewlett Packard Enterprise/HPE marks is historical in nature, and the HP and Hewlett Packard Enterprise/HPE marks are the property of their respective owners.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Jul 2017 11:55:12 +0000</pubDate>
+ <dc:creator>atothnvp</dc:creator>
+ <guid isPermaLink="false">3528014 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-ide-integration-alm-octane#comments</comments>
+  </item>
+  <item>
+    <title>IBM Liberty Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-emp-darkblue-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-11-14 12:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-02 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;An Eclipse IDE for building and deploying Java EE, OSGi and Web 2.0 applications to Open Liberty and WebSphere Application Server Liberty. For more information about installing and downloading the tools, including archived versions of the tools for older versions of Eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1778478 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools#comments</comments>
+  </item>
+  </channel>
+</rss>

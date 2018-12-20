@@ -1,0 +1,47 @@
+package exm_proba;
+
+public class Main2 extends Thread{
+	final static int mida = 230;
+	static double arrayresult[][] = new double [4][mida];
+
+	public void run() {
+		int id_thread = Integer.parseInt(Thread.currentThread().getName().toString());
+		
+		switch(id_thread) {
+		case 1://Multiplicar
+			for(int i = 0; i < mida; i++) {
+				arrayresult[0][i] = 22 * i;
+			}
+			break;
+		case 2://Dividir
+			for(int i = 0; i < mida; i++) {
+				if(i == 0) {
+					arrayresult[1][i] = 0;
+				}else {
+					arrayresult[1][i] = (double)22 / i;
+				}	
+			}
+			break;
+		case 3://Exponent
+			for(int i = 0; i < mida; i++) {
+				arrayresult[2][i] = Math.pow(22, i);
+			}
+
+			break;
+		case 4://Arrel
+			for(int i = 0; i < mida; i++) {
+				arrayresult[3][i] = Math.sqrt(22 * i);
+			}
+			break;
+		}
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

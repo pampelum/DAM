@@ -1,0 +1,28 @@
+package interprocesscom;
+
+public class ThreadA {
+
+	public void run() throws InterruptedException {
+		
+		Thread t = new Thread();
+		t.start();
+		
+		int contador = 0;
+		
+		while(contador < 10) {
+			synchronized(t) {
+			System.out.println("Hola txiu");
+			t.wait();
+			t.notify();
+			contador++;
+			}
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

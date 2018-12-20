@@ -1,0 +1,54 @@
+package producerConsumer;
+
+import java.util.LinkedList;
+
+public class Main {
+	
+	static LinkedList <Long> list = new LinkedList<Long>();
+	
+	final static int Capacity = 6;
+	int introduit = 0;
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+	public  void Produce() throws InterruptedException {
+		long dada = 0L;
+		
+		while(true) {
+			synchronized(this) {
+				if(list.size() == Capacity) {
+					wait();
+				}else {
+					System.out.println("El productor ha produit" + dada);
+					list.add(dada);
+				}
+			}Thread.sleep(1000);
+		}
+		
+	}
+	
+	public  void Consumer() throws InterruptedException {
+		long valor;
+		
+		while(true) {
+			synchronized(this){
+				if(list.isEmpty()) {
+					wait();
+				}else {
+					valor = list.removeFirst();
+					System.out.println("S'ha eliminat el valor " + valor);
+				}
+			}
+		}
+	}
+}

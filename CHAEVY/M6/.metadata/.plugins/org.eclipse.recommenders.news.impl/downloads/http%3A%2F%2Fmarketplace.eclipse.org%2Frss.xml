@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>EKube</title>
+    <link>http://marketplace.eclipse.org/content/ekube</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/EKube-Logo-Marketplace.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-12-19 04:46&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-11-26 13:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;EKube &lt;/strong&gt;is a simple eclipse integration for kubernetes.&lt;/p&gt;
+&lt;p&gt;It shall not be a replacement for &lt;em&gt;kubectl&lt;/em&gt;, but give developers an convient and fast overview about current situations inside their kubernetes clusters.&lt;/p&gt;
+&lt;p&gt;The project is still beta, but makes read only access - so you will not harm your cluster, even when its currently not marked as  production ready. &lt;/p&gt;
+&lt;h2&gt;Additional Links&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/ekube/wiki&quot; rel=&quot;nofollow&quot;&gt;EKube Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/ekube/issues&quot; rel=&quot;nofollow&quot;&gt;Issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/ekube/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/ekube&quot; rel=&quot;nofollow&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 26 Nov 2018 18:14:44 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">4389071 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ekube#comments</comments>
+  </item>
+  <item>
+    <title>Alibaba Cloud Toolkit</title>
+    <link>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/alibaba_logo_110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-12-19 02:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Alibaba%22&quot;&gt;Alibaba&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-11-13 04:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yshiunv/listings&quot; title=&quot;Ni Chao&quot;&gt;Ni Chao&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Alibaba Cloud Toolkit is a plugin for IDEs such as Eclipse or IntelliJ IDEA. Help developers more efficiently develop, test, diagnose, and deploy applications that are suitable for cloud operations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why use Alibaba Cloud Toolkit?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Zero cost：Free for all developer&lt;/li&gt;
+&lt;li&gt;Multilingualism：No language restrictions, for all development languages&lt;/li&gt;
+&lt;li&gt;Extremely efficient：Get rid of past recurring deployment methods, plug-in automated deployment&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Three use scenarios, simple and convenient, get started quickly&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Scenario 1: Deploy to ECS。There is no need to switch between Maven, Git, and other O&amp;amp;M scripts and tools, and developers can configure it on a graphical interface to deploy applications to ECS in a sustainable and convenient manner.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 2: Deploy to EDAS。Enterprise Distributed Application Services EDAS is a PaaS platform for applications and microservices that offers a wide range of application delivery and lightweight microservice solutions. For Alibaba Cloud EDAS developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 3: Deploy to Kubernetes。Container Services Kubernetes Edition provides high-performance, scalable container application management capabilities that support full lifecycle management of enterprise-class Kubernetes containerized applications. For Alibaba Cloud Kubernetes developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Alibaba Cloud Toolkit（或叫做阿里云 Toolkit，Aliyun Toolkit ），是一个面向 Eclipse 或者 Intellij IDEA 系列平台的插件。其帮助开发者更高效的开发、测试、诊断和部署面向云端运行的应用。&lt;/p&gt;
+&lt;p&gt;为什么选择Alibaba Cloud Toolkit？&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;0 成本：对所有开发者免费&lt;/li&gt;
+&lt;li&gt;跨语言：没有编程语言限制&lt;/li&gt;
+&lt;li&gt;极高效：摆脱传统的手工部署方式，多种使用场景，简单方便，快速入门&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;三大场景&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;场景1：部署到 ECS。无需在 Maven、Git 和 SecureCRT 等其他运维工具和脚本之间切换，开发者可以在 IDE 的图形界面上配置好自动化流程，以便采用持续和自动化的方式将应用程序部署到ECS。&lt;/li&gt;
+&lt;li&gt;场景2：部署到 EDAS. 企业级分布式应用服务 EDAS 是一个用于开发和部署微服务应用 PaaS 平台，提供通用的应用程序交付和轻量级微服务解决方案。对于阿里云 EDAS 开发者，可以在插件中关联云端的 EDAS 应用，实现自动化部署。&lt;/li&gt;
+&lt;li&gt;场景3：部署到容器服务 Kubernetes。阿里云容器服务 Kubernetes 版提供高性能，可扩展的容器应用管理功能，支持企业级 Kubernetes 容器化应用的完整生命周期管理。对于阿里云 Kubernetes 开发者，可以在插件中关联云端的 Kubernetes 容器，实现自动化部署。&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 13 Nov 2018 09:24:10 +0000</pubDate>
+ <dc:creator>yshiunv</dc:creator>
+ <guid isPermaLink="false">4368067 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit#comments</comments>
+  </item>
+  <item>
+    <title>Actifsource - Model-Driven Development and Software Configuration Tool</title>
+    <link>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/a_eclipse_marktplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-12-19 01:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Actifsource%20AG%22&quot;&gt;Actifsource AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-04-15 11:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mriser6li/listings&quot; title=&quot;Micha Riser&quot;&gt;Micha Riser&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Actifsource is a code generator plug-in for the Eclipse IDE. Code generation is driven by models which are created according to user-defined meta-models. UML-like graphic editor assists modeling. Generic code templates which directly connect to the user&#039;s meta-model enable code generation. Among the supported all textual programminig languages (i.e. C/C++, Scala, Groovy, Java, Cobol, IEC 61131, ...). Regeneration of code happens in realtime whenever model, meta-model or code templates change. The user is guided by content-assist in every situation. Interoperability with other UML and modeling tools is provided by importing and exporting from/to ecore.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;Free Community Version available!&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;h2&gt;Feature List&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Lightweight&lt;/li&gt;
+&lt;li&gt;Manage models and meta-models in a single workspace&lt;/li&gt;
+&lt;li&gt;Realtime validation&lt;/li&gt;
+&lt;li&gt;Type-safe code templates&lt;/li&gt;
+&lt;li&gt;Groundbreaking template editor concept&lt;/li&gt;
+&lt;li&gt;Strong typing and content assist&lt;/li&gt;
+&lt;li&gt;VCS integration&lt;/li&gt;
+&lt;li&gt;File-based (no database)&lt;/li&gt;
+&lt;li&gt;Graphical UML-like editor for meta-models&lt;/li&gt;
+&lt;li&gt;Generate code for any programming language&lt;/li&gt;
+&lt;li&gt;All references linkable&lt;/li&gt;
+&lt;li&gt;Parallel build with outstanding performance&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 15 Apr 2010 15:35:03 +0000</pubDate>
+ <dc:creator>mriser6li</dc:creator>
+ <guid isPermaLink="false">1177 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool#comments</comments>
+  </item>
+  <item>
+    <title>Microclimate Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/microclimate-developer-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/mdt-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-12-18 09:33&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-10-04 13:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jkim/listings&quot; title=&quot;Joseph Kim&quot;&gt;Joseph Kim&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Use &lt;a href=&quot;https://microclimate-dev2ops.github.io/mdteclipseoverview&quot; rel=&quot;nofollow&quot;&gt;Microclimate Developer Tools for Eclipse&lt;/a&gt; to develop your &lt;a href=&quot;https://microclimate-dev2ops.github.io/documentation&quot; rel=&quot;nofollow&quot;&gt;Microclimate&lt;/a&gt; projects from within Eclipse. Use the tools to access Microclimate features in the comfort of your IDE.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/microclimate-dev2ops/microclimate-eclipse-tools&quot; rel=&quot;nofollow&quot;&gt;GitHub Repository&lt;/a&gt; • &lt;a href=&quot;https://slack-invite-ibm-cloud-tech.mybluemix.net/&quot; rel=&quot;nofollow&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features &lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;View all Microclimate projects for a connection including the application and build status&lt;/li&gt;
+&lt;li&gt;Import your Microclimate project into the Eclipse workspace&lt;/li&gt;
+&lt;li&gt;Debug &lt;strong&gt;Microprofile/Java EE&lt;/strong&gt; and &lt;strong&gt;Spring&lt;/strong&gt; applications&lt;/li&gt;
+&lt;li&gt;View application and build logs in the &lt;strong&gt;Console&lt;/strong&gt; view&lt;/li&gt;
+&lt;li&gt;Integrate Microclimate validation errors into the &lt;strong&gt;Markers&lt;/strong&gt; view&lt;/li&gt;
+&lt;li&gt;Open a shell session into a Microclimate application container&lt;/li&gt;
+&lt;li&gt;Toggle the project auto build setting and manually initiate project builds&lt;/li&gt;
+&lt;li&gt;Open your application or the application monitor in a browser&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;How to Use&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Make sure to uninstall Microclimate Developer Tools Beta if you have it installed&lt;/li&gt;
+&lt;li&gt;Install Microclimate Developer Tools for Eclipse&lt;/li&gt;
+&lt;li&gt;Verify that you have a local instance of Microclimate 18.12 or later running&lt;/li&gt;
+&lt;li&gt;Create a new connection to Microclimate:
+&lt;ul&gt;&lt;li&gt;From the &lt;strong&gt;File&lt;/strong&gt; menu select &lt;strong&gt;New&lt;/strong&gt; &amp;gt; &lt;strong&gt;Other&lt;/strong&gt; &amp;gt; &lt;strong&gt;Microclimate&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Microclimate Connection&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Fill in the &lt;strong&gt;Hostname&lt;/strong&gt; (only &lt;em&gt;localhost&lt;/em&gt; is supported) and &lt;strong&gt;Port&lt;/strong&gt; (usually &lt;em&gt;9090&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Test connection&lt;/strong&gt; and then click &lt;strong&gt;Finish&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;This should open the Microclimate Explorer view with the connection expanded to show your projects. If it does not open the view then open it manually:
+&lt;ul&gt;&lt;li&gt;From the &lt;strong&gt;Window&lt;/strong&gt; menu select &lt;strong&gt;Show View&lt;/strong&gt; &amp;gt; &lt;strong&gt;Other&lt;/strong&gt; &amp;gt; &lt;strong&gt;Microclimate&lt;/strong&gt; &amp;gt; &lt;strong&gt;Microclimate Explorer&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Open&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Right click on the connection to see the available actions for connections&lt;/li&gt;
+&lt;li&gt;Right click on a project to see the available actions for projects&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 04 Oct 2018 17:18:55 +0000</pubDate>
+ <dc:creator>jkim</dc:creator>
+ <guid isPermaLink="false">4303979 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/microclimate-developer-tools#comments</comments>
+  </item>
+  <item>
+    <title>Teamscale Integration for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/teamscale-integration-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_114.png&quot; width=&quot;110&quot; height=&quot;25&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-12-18 08:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CQSE%20GmbH%22&quot;&gt;CQSE GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-02-12 10:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tkinnen/listings&quot; title=&quot;Thomas Kinnen&quot;&gt;Thomas Kinnen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;em&gt;Teamscale Integration for Eclipse&lt;/em&gt; allows for seamless browsing of quality defects found by the &lt;a href=&quot;https://www.teamscale.com/&quot; rel=&quot;nofollow&quot;&gt;Teamscale software‐quality analysis server&lt;/a&gt;. Teamscale analyzes your source code incrementally with every commit, providing feedback on the quality of your code in near real‐time. (&lt;strong&gt;Note: An existing Teamscale Server is necessary to use this plugin!&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;This plugin has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Auto‐detect which branch is being used (Git &amp;amp; SVN) and display all data accordingly&lt;/li&gt;
+&lt;li&gt;Display defects in the &lt;em&gt;Findings&lt;/em&gt; view&lt;/li&gt;
+&lt;li&gt;Allow comparison of clones using the clone compare editor&lt;/li&gt;
+&lt;li&gt;Display findings next to your code&lt;/li&gt;
+&lt;li&gt;Blacklist findings&lt;/li&gt;
+&lt;li&gt;Use baselines to only display defects that are new&lt;/li&gt;
+&lt;li&gt;Show test coverage from Teamscale server&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Just follow the &lt;a href=&quot;https://cqse.eu/get-eclipse&quot; rel=&quot;nofollow&quot;&gt;installation guide&lt;/a&gt; and start using the Teamscale Integration in your Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://www.cqse.eu/en/products/teamscale/support/#changelog&quot; rel=&quot;nofollow&quot;&gt;changelog&lt;/a&gt; to find out what’s new.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 12 Feb 2015 15:16:07 +0000</pubDate>
+ <dc:creator>tkinnen</dc:creator>
+ <guid isPermaLink="false">2188950 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/teamscale-integration-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>RustDT</title>
+    <link>http://marketplace.eclipse.org/content/rustdt</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/IDE-logo_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/bmedeirosjpi/listings&quot; title=&quot;Bruno Medeiros&quot;&gt;Bruno Medeiros&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-12-18 07:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-06-17 12:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;RustDT is no longer maintained&lt;/strong&gt;! See the Corrosion extension ( &lt;a href=&quot;https://marketplace.eclipse.org/content/corrosion-develop-rust-applications-eclipse-ide&quot; rel=&quot;nofollow&quot;&gt;https://marketplace.eclipse.org/content/corrosion-develop-rust-applicati...&lt;/a&gt; ) for a more current project aiming to provide Rust support in Eclipse.&lt;/p&gt;
+&lt;p&gt;RustDT is an Eclipse based IDE for the Rust programming language. A Rust installation and other additional tools are required for full operation of RustDT. Please see the website for more information: &lt;a href=&quot;http://rustdt.github.io/&quot; rel=&quot;nofollow&quot;&gt;http://rustdt.github.io/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 17 Jun 2015 16:37:23 +0000</pubDate>
+ <dc:creator>bmedeirosjpi</dc:creator>
+ <guid isPermaLink="false">2395777 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/rustdt#comments</comments>
+  </item>
+  <item>
+    <title>g9 Database Import</title>
+    <link>http://marketplace.eclipse.org/content/g9-database-import</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Esito-g9-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-12-18 07:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Esito%22&quot;&gt;Esito&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-09-14 09:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dbyesen/listings&quot; title=&quot;Dag Bøyesen&quot;&gt;Dag Bøyesen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Reverse engineer your database structure into java JPA classes. Create Java classes, or an Xcore or Ecore representation of your exisiting database. &lt;strong&gt;g9 Database Model Import&lt;/strong&gt; is a free g9 Eclipse plugin producing models based on structure information read from databases.&lt;/p&gt;
+&lt;p&gt;Given a connection to an existing database, the g9 Database Import will read tables and columns in your database (using the database schema) and create the corresponding model either in Java, Xcore or Ecore depending on the project type of your Eclipse project.&lt;/p&gt;
+&lt;p&gt;Install &lt;strong&gt;g9 Database Import&lt;/strong&gt;, restart Eclipse and create a Java or Xcore project. Select &lt;strong&gt;File &amp;gt; Import... &amp;gt; g9 &amp;gt; Import Database Model&lt;/strong&gt; to start the import wizard (see the Screenshots).&lt;/p&gt;
+&lt;p&gt;Complete documentation is available from &lt;strong&gt;Help &amp;gt; Help Contents&lt;/strong&gt;. Select &lt;strong&gt;g9 Documentation &amp;gt;  g9 Database Model Import&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Choose&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;which tables to include: by default all tables are included and a class name based on the table names are suggested&lt;/li&gt;
+&lt;li&gt;which columns to include: by default all columns are included and an attribute name based on the column names are suggested&lt;/li&gt;
+&lt;li&gt;the data type mappings for your domain model based on the JDBC types - or use default values&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;An import of your database to a Java Project will create Java classes, an import to an Xcore Project will create an Xcore model, all other Eclipse Project types will result in an Ecore model. The Java classes may be enriched with JPA annotations. If you work with Xcore or Ecore models you should use Eclipse for Java and DSL Developers.&lt;/p&gt;
+&lt;p&gt;In the g9 Database Import feature you connect to a database using a JDBC driver. The built-in drivers are MySQL, MS SQL Server (jTDS) and Sybase ASE (jTDS). Use the function [Maintain JDBC Drivers] in the g9 Import feature to connect to other databases, e.g Oracle, PostgreSQL, Firebird or a DBMS of your choice.&lt;/p&gt;
+&lt;p&gt;You may download the complete &lt;strong&gt;g9&lt;/strong&gt; product and use the Database import feature in a g9 Eclipse Project. To be able to exploit the other features in g9, you should create a &lt;em&gt;g9 UI Modeling Project&lt;/em&gt; and import your database to an Ecore, Xcore model or Java source with &lt;em&gt;g9 annotations&lt;/em&gt;. Please see the User guide for more information about the g9 Database Import feature.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 14 Sep 2016 13:30:45 +0000</pubDate>
+ <dc:creator>dbyesen</dc:creator>
+ <guid isPermaLink="false">3072599 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/g9-database-import#comments</comments>
+  </item>
+  <item>
+    <title>SU-statemodeler</title>
+    <link>http://marketplace.eclipse.org/content/su-statemodeler</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_10.png&quot; width=&quot;109&quot; height=&quot;79&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/cpauliadp/listings&quot; title=&quot;Christian Pauli&quot;&gt;Christian Pauli&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-12-17 13:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2016-04-04 14:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;(imple) &lt;strong&gt;U&lt;/strong&gt;(ML)-statemodeler enables you to develop state-based software systems with only little programming effort. The application is easy to use and does not require any programming skills. So you can focus on functional requirements.&lt;/p&gt;
+&lt;p&gt;The application consists of a graphical editor for UML-statecharts and a code-generator. With the editor every kind of state-based system can be modeled. These models can be compiled into code of several programming languages. Currently&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;C# and&lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;are supported. Code-generation is made with one click. The generated code can easlily be integrated in other software systems.&lt;/p&gt;
+&lt;p&gt;The application is available as standalone editor and as plug-in for Eclipse. It is free for private and commercial use.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 04 Apr 2016 18:42:43 +0000</pubDate>
+ <dc:creator>cpauliadp</dc:creator>
+ <guid isPermaLink="false">2812174 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/su-statemodeler#comments</comments>
+  </item>
+  <item>
+    <title>IBM Liberty Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-emp-darkblue-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-12-17 11:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-02 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;An Eclipse IDE for building and deploying Java EE, OSGi and Web 2.0 applications to Open Liberty and WebSphere Application Server Liberty. For more information about installing and downloading the tools, including archived versions of the tools for older versions of Eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If your Eclipse workbench is Eclipse Oxygen, it must be Eclipse Oxygen for Java EE Developers, Version 4.7.2 or higher.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1778478 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools#comments</comments>
+  </item>
+  <item>
+    <title>Spark Builder Generator</title>
+    <link>http://marketplace.eclipse.org/content/spark-builder-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sparkbuildergeneratoricon.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hsparkwpb/listings&quot; title=&quot;Helo Spark&quot;&gt;Helo Spark&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-12-17 10:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-10-23 07:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Generates a builder according to the GoF pattern for Java domain objects.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Generates a builder with custom name patterns&lt;/li&gt;
+&lt;li&gt;Can generate &lt;a href=&quot;http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java&quot; rel=&quot;nofollow&quot;&gt;staged builder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Capable of regenerating the builder&lt;/li&gt;
+&lt;li&gt;Compatible with most version of Eclipse&lt;/li&gt;
+&lt;li&gt;Highly configurable, check the plugin&#039;s preferences page&lt;/li&gt;
+&lt;li&gt;Capable of generate builder methods for visible fields in superclass&lt;/li&gt;
+&lt;li&gt;Encourages and supports null-safe programming practices&lt;/li&gt;
+&lt;li&gt;Open source (with very permissible MIT license)&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;strong&gt;Usage&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To invoke the generation have a Java file active and press either the icon on the toolbar (the hammer) or Ctrl+Shift+B.&lt;br /&gt;
+You can click the small arrow next to the main icon to generate a different builder type (like staged builder), if you usually generate a certain kind of builder, set the default builder in the preferences page.&lt;br /&gt;
+You can set the preferences under: &lt;strong&gt;&lt;em&gt;Window-&amp;gt;Preferences-&amp;gt;Java-&amp;gt;Spark Builder Generator&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Example result:&lt;/strong&gt;&lt;/h2&gt;
+&lt;pre&gt;
+  public class Clazz {
+        private Integer firstField;
+        private Long secondField;
+        @Generated(&quot;SparkTools&quot;)
+        private Clazz(Builder builder) {
+            this.firstField = builder.firstField;
+            this.secondField = builder.secondField;
+        }
+        /**
+         * Creates builder to build {@link Clazz}.
+         * @return created builder
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static Builder builder() {
+            return new Builder();
+        }
+        /**
+         * Builder to build {@link Clazz}.
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static class Builder {
+            private Integer firstField;
+            private Long secondField;
+
+            private Builder() {
+            }
+
+            /**
+            * Builder method for firstField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withFirstField(@Nonnull Integer firstField) {
+                this.firstField = firstField;
+                return this;
+            }
+
+            /**
+            * Builder method for secondField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withSecondField(@Nonnull Long secondField) {
+                this.secondField = secondField;
+                return this;
+            }
+
+            /**
+            * Builder method of the builder.
+            * @return built class
+            */
+            @Nonnull
+            public Clazz build() {
+                return new Clazz(this);
+            }
+        }
+    }
+&lt;/pre&gt;&lt;h2&gt;&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;0.0.5&lt;/strong&gt; Added handling for code style prefix and suffix, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/5&quot; rel=&quot;nofollow&quot;&gt;Github issue 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.6&lt;/strong&gt; Added staged builder support., see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/4&quot; rel=&quot;nofollow&quot;&gt;Github issue 4&lt;/a&gt; Staged builder allows you to verify that all of the mandatory fields are set at compile time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.7&lt;/strong&gt; Option to add visible fields from superclasses to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/7&quot; rel=&quot;nofollow&quot;&gt;Github issue 7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.8&lt;/strong&gt; Fixed regression bug that was introduced in 0.0.7. While collection visible fields from superclasses, under some Eclipse configurations IllegalArgumentException occurred during java.lang.Object parsing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.9&lt;/strong&gt; Added option to generate builder to selected class (in case of nested classes, or multiple classes in a single file), see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/10&quot; rel=&quot;nofollow&quot;&gt;Github issue 10&lt;/a&gt; Improvements to previous Builder class removing logic&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.10&lt;/strong&gt; Added the option to select which fields are generated in the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/8&quot; rel=&quot;nofollow&quot;&gt;Github issue 8&lt;/a&gt;&lt;br /&gt;
+Fixed a small bug that deleted the previous builder when pressing the cancel button on the staging builder generator dialog Added MIT license file to plugin&#039;s site.xml, so it will show up on installation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.11 &lt;/strong&gt;Initialize Optional value to Optional.empty() to follow nullsafe programming practices&lt;br /&gt;
+Initialize Collections with empty collections via java.util.Collections class&lt;br /&gt;
+Various bugfixes related to overriding previous builder&lt;br /&gt;
+Logging improvement&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.12&lt;/strong&gt; Generate @param tag to the builder&#039;s &quot;with&quot; methods, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/28&quot; rel=&quot;nofollow&quot;&gt;Github issue 28&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.13&lt;/strong&gt; Add fields from superclass&#039; constructor to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/30&quot; rel=&quot;nofollow&quot;&gt;Github issue 30&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.14 &lt;/strong&gt;Add the ability to create a builder based on an already existing instance, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/33&quot; rel=&quot;nofollow&quot;&gt;Github issue 33&lt;/a&gt;&lt;br /&gt;
+Dialog UX update&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.15 &lt;/strong&gt;Add builder fields for private fields in superclass that have setters, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/35&quot; rel=&quot;nofollow&quot;&gt;Github issue 35&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.16 &lt;/strong&gt;Generate Jackson deserialize annotations to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/37&quot; rel=&quot;nofollow&quot;&gt;Github issue 37&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.17 &lt;/strong&gt;Generate default constructor, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/39&quot; rel=&quot;nofollow&quot;&gt;Github issue 39&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.18&lt;/strong&gt; Fixed dialog issue when combined with DevStyle Darkest Dark plugin &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/41&quot; rel=&quot;nofollow&quot;&gt;Github issue 41&lt;/a&gt;&lt;br /&gt;
+Also made dialogs more responsive&lt;br /&gt;
+Updated icon&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.19&lt;/strong&gt; Fixed ClassCastException when Java file includes an enum as the first type. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/44&quot; rel=&quot;nofollow&quot;&gt;Github issue 44&lt;/a&gt;&lt;br /&gt;
+Made builder not generate @JsonPOJOBuilder annotation when the default builder names are not overridden&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.20&lt;/strong&gt; Fixed regression issue introduced on older Eclipse version due to 0.0.19. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/46&quot; rel=&quot;nofollow&quot;&gt;Github issue 46&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.21&lt;/strong&gt; Option to generate public constructor for regular builder that includes mandatory fields. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/49&quot; rel=&quot;nofollow&quot;&gt;Github issue 49&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Troubleshooting installation failure&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Here are some common reasons installation fails, and steps to resolve&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Connection timeout&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a temporary problem, while accessing the update site. The server most of the times will be available again in a couple of minutes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You may try the FTP download site (see below)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;em&gt;For any other failure please contact me in the comments or Github.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installing via FTP update site&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In your Eclipse go to:&lt;/p&gt;
+&lt;p&gt;Help-&amp;gt;Install new software-&amp;gt;Copy and paste the following URI:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&quot; rel=&quot;nofollow&quot;&gt;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&lt;/a&gt;&lt;br /&gt;
+Select the latest version (should be under SparkTools category) and install.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installing from backup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In case both FTP and HTTPS update sites are unavailable, you can install jar file from Mediafire backup:&lt;br /&gt;&lt;a href=&quot;http://www.mediafire.com/file/9nt6vh9l0o4bj7o/com.helospark.SparkBuilderGenerator_0.0.19.201810182013.jar&quot; rel=&quot;nofollow&quot;&gt;Latest backup&lt;/a&gt; (entire update site: &lt;a href=&quot;http://www.mediafire.com/folder/ya4g0y69b24vu/plugins&quot; rel=&quot;nofollow&quot;&gt;www.mediafire.com/folder/ya4g0y69b24vu/plugins&lt;/a&gt;)&lt;br /&gt;
+Locate the jar file, you wish to install (probably the latest), and copy it to your Eclipse&#039;s dropin folder.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Additional information:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;For feature request, bug reports please use the GitHub page: &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator&quot; rel=&quot;nofollow&quot;&gt;https://github.com/helospark/SparkBuilderGenerator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 23 Oct 2016 11:09:34 +0000</pubDate>
+ <dc:creator>hsparkwpb</dc:creator>
+ <guid isPermaLink="false">3130970 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/spark-builder-generator#comments</comments>
+  </item>
+  </channel>
+</rss>

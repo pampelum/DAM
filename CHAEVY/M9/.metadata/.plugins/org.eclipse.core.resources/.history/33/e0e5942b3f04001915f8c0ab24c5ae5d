@@ -1,0 +1,108 @@
+package exm;
+
+import java.time.Duration;
+import java.time.Instant;
+
+public class Main extends Thread{
+		final static int midaArray = 230;
+		static double arrayResultats[][] = new double[4][midaArray];
+		
+		public void run() {
+			int numThread = Integer.parseInt(Thread.currentThread().getName().toString());
+			
+			switch(numThread) {
+			case 1:
+				
+				for(int i = 0; i < midaArray; i++) {
+					arrayResultats[0][i] = (double)22 * i;
+				}
+				
+				break;
+				
+			case 2:
+				
+				for(int i = 0; i < midaArray; i++) {
+					if(i==0) {  //Divisio per 0
+						arrayResultats[1][i] = 0;
+					}else {
+						arrayResultats[1][i] = (double)22 / i;
+					}	
+				}
+				
+				break;
+				
+			case 3:
+				
+				for(int i = 0; i < midaArray; i++) {
+					arrayResultats[2][i] = Math.pow(22, i);
+				}
+				
+				break;
+				
+			case 4:
+				
+				for(int i = 0; i < midaArray; i++) {
+					arrayResultats[3][i] = Math.sqrt(22 * i);
+				}
+				
+				break;
+			}
+		}
+		
+		public static void main(String[] args) throws InterruptedException {
+			Main obj = new Main();
+			
+			Thread t1 = new Thread(obj);
+			Thread t2 = new Thread(obj);
+			Thread t3 = new Thread(obj);
+			Thread t4 = new Thread(obj);
+			
+			t1.setName("1");
+			t2.setName("2");
+			t3.setName("3");
+			t4.setName("4");
+			
+			Instant start = Instant.now();
+			
+			
+			t1.start();
+			t2.start();
+			t3.start();
+			t4.start();
+			
+			t1.join();
+			t2.join();
+			t3.join();
+			t4.join();
+			
+			/* Execució seqüencial
+			t1.start();
+			t1.join();
+			t2.start();
+			t2.join();
+			t3.start();
+			t3.join();
+			t4.start();
+			t4.join();
+			*/
+			
+			Instant end = Instant.now();
+			Duration timeElapsed = Duration.between(start, end);
+			
+			imprimirArray();
+			System.out.println("Time taken: " + timeElapsed.toMillis() + " milliseconds");
+
+		}
+
+		
+		public static void imprimirArray() {
+			for(int i = 0; i < midaArray; i++) {
+				
+				for(int x = 0; x < 4; x++) {
+					System.out.print(arrayResultats[x][i]+"\t\t");
+				}
+				
+				System.out.println();
+			}
+		}
+}

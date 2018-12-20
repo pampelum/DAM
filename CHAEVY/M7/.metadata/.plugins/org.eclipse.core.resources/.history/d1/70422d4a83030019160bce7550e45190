@@ -1,0 +1,228 @@
+package application;
+	
+import java.util.function.UnaryOperator;
+import javafx.application.Application;
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.control.TextFormatter;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+
+public class Main extends Application {
+	
+	//Botons
+	Button btnAceptar = new Button("Aceptar");
+	Button btnCancelar = new Button ("Cancelar");
+	
+	//Etiquetes
+	Label lblTitol = new Label();
+	Label lblAutor = new Label();
+	Label lblIsbn = new Label();
+	Label lblGenere = new Label();
+	Label lblAnypub = new Label();
+	Label lblEdicio = new Label();
+	Label lblEditora = new Label();
+	Label lblIdioma = new Label();
+	
+	//Camps de text
+	TextField txtTitol = new TextField();
+	TextField txtAutor = new TextField();
+	TextField txtIsbn = new TextField();
+	TextField txtGenere = new TextField();
+	TextField txtAnypub = new TextField();
+	TextField txtEdicio = new TextField();
+	TextField txtEditora = new TextField();
+	TextField txtIdioma = new TextField();
+	
+	
+	
+	public void start(Stage primaryStage) {
+		try {
+			BorderPane root = new BorderPane();
+			Scene scene = new Scene(root,450,300);
+			VBox esquerre = new VBox();
+			VBox dreta = new VBox();
+			HBox hbBtn = new HBox();	
+			
+			root.setLeft(esquerre);
+			root.setRight(dreta);
+			root.setBottom(hbBtn);
+			
+			//Columne esquerre
+			esquerre.getChildren().addAll(lblTitol, txtTitol, lblGenere, txtGenere,
+										 lblIdioma, txtIdioma, lblEdicio, txtEdicio);
+			
+			//Columne dreta
+			dreta.getChildren().addAll(lblAutor, txtAutor, lblAnypub, txtAnypub,
+									  lblIsbn, txtIsbn, lblEditora, txtEditora);
+			
+			//Botons
+			hbBtn.getChildren().addAll(btnAceptar, btnCancelar);
+			
+			lblTitol.setText("Titol");
+			lblAutor.setText("Autor");
+			lblIsbn.setText("ISBN");
+			lblGenere.setText("Genere");
+			lblAnypub.setText("Any de publicació");
+			lblEdicio.setText("Edició");
+			lblEditora.setText("Editora");
+			lblIdioma.setText("Idioma");
+			
+			btnAceptar.setStyle("-fx-font: 22 arial; -fx-base: blue;");
+			btnCancelar.setStyle("-fx-font: 22 arial; -fx-base: red;");
+			
+			btnAceptar.setOnMousePressed(e -> clickAceptar(e));
+			
+			//Restriccions Titol
+			
+			txtTitol.setOnKeyTyped(e ->{
+				int maxCharacters = 25;
+		        if(txtTitol.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions Autor
+	
+			txtAutor.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[A-Z]*[a-z]*[ ]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtAutor.setOnKeyTyped(e ->{
+				int maxCharacters = 25;
+		        if(txtAutor.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions Genere
+			
+			
+			txtGenere.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[A-Z]*[a-z]*[ ]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtGenere.setOnKeyTyped(e ->{
+				int maxCharacters = 15;
+		        if(txtGenere.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions Any Publicació
+			
+			txtAnypub.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[0-9]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtAnypub.setOnKeyTyped(e ->{
+				int maxCharacters = 4;
+		        if(txtAnypub.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions Idioma
+			
+			txtIdioma.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[A-Z]*[a-z]*[ ]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtIdioma.setOnKeyTyped(e ->{
+				int maxCharacters = 25;
+		        if(txtIdioma.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions ISBN
+			
+			txtIsbn.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[0-9]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtIsbn.setOnKeyTyped(e ->{
+				int maxCharacters = 13;
+		        if(txtIsbn.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restriccions Edició
+			
+			txtEdicio.setOnKeyTyped(e ->{
+				int maxCharacters = 30;
+		        if(txtEdicio.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//Restricció Editora
+			
+			txtEditora.addEventFilter(KeyEvent.KEY_TYPED, e ->{
+				if(!e.getCharacter().matches("[A-Z]*[a-z]*[ ]*")) 
+				{
+					e.consume();
+				}
+			});
+			
+			txtEditora.setOnKeyTyped(e ->{
+				int maxCharacters = 25;
+		        if(txtEditora.getText().length() >= maxCharacters) e.consume();
+			});
+			
+			
+			//CSS
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			//Afegir escena
+			primaryStage.setScene(scene);
+			//Mostrar la finestra
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	//Click amb el ratolí
+		private Object clickAceptar(MouseEvent e) {
+			Llibre book = new Llibre(txtTitol.getText(), txtAutor.getText(), txtIsbn.getText(),
+									txtGenere.getText(), txtAnypub.getText(), txtEdicio.getText(),
+									txtEditora.getText(), txtIdioma.getText());
+				
+				
+			System.out.println("Titol: " + book.getTitol() +" "+"Autor: " + book.getAutor());
+			return null;
+		}	
+			
+/*	//Tecla Enter
+	private Object acabar(){
+		Llibre book = new Llibre(txtTitol.getText(), txtAutor.getText(), txtIsbn.getText(),
+								txtGenere.getText(), txtAnypub.getText(), txtEdicio.getText(),
+								txtEditora.getText(), txtIdioma.getText());
+		
+		
+		System.out.println(book.getAutor());
+		return null;
+	}*/
+	
+	
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

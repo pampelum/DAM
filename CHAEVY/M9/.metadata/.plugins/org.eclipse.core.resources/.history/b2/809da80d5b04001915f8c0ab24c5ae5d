@@ -1,0 +1,10 @@
+package interprocesscom;
+
+public class ThreadB extends ThreadA{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package interprocesscom;
+
+public class ThreadA {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

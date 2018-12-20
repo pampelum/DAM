@@ -1,0 +1,17 @@
+package conctarBBDD;
+import java.sql.*;
+public class Main {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		// TODO Auto-generated method stub
+
+		Class.forName("org.postgresql.Driver");
+		
+		Connection conexio = null;
+		conexio = DriverMnager.getConnection(
+				"jdbc:postgresql://" + "localhost" + ":" + "5432" +"/terrenys"+ "?preferQueryMode="+"null","postrges","dipard94"
+				);
+
+	}
+
+}

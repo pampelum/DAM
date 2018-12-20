@@ -1,0 +1,46 @@
+package application;
+
+public class Libre {
+
+	private String titol;
+	private String autor;
+	private String isbn;
+	private String genere;
+	private String anypub;
+	
+	
+	
+	public String getTitol() {
+		return titol;
+	}
+	public void setTitol(String titol) {
+		this.titol = titol;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	public String getGenere() {
+		return genere;
+	}
+	public void setGenere(String genere) {
+		this.genere = genere;
+	}
+	public String getAnypub() {
+		return anypub;
+	}
+	public void setAnypub(String anypub) {
+		this.anypub = anypub;
+	}
+	
+}
+
+

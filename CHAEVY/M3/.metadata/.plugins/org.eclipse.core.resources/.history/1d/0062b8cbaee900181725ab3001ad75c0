@@ -1,0 +1,117 @@
+package pilaGeneric;
+
+package tad;
+/*
+ * MyPilaString
+ * 
+ * Pila de cadenes de caràcter (String) implementada amb arrays, on la capacitat inicial s'indica
+ * en el moment de la creació.
+ * 
+ * 
+*/
+public class MyPilaString {
+	private String[] pila = null;
+	private int top;
+	public int capacitat;
+	
+	/*
+	 * crear_pila. Utiltiza un array per emmagatzemar les cadenes de caràcter
+	 * 
+	 * Pre: Comprobar que la capacitat de la pila sigui major de 0.
+	 * Post: la pila té la capacitat indicada. Top -1, ja que no hi ha cap element
+	 * Err: Nombres negatius no acceptats 
+	 */
+	MyPilaString(int capacitat)
+	{
+		this.capacitat = capacitat;
+		if(capacitat > 0) {
+			pila = new String[capacitat];
+			top = -1;
+		} else {
+			System.err.println("No es pot crear la pila.");
+			System.err.println("La capacitat de la pila ha de ser major de 0.");
+		}
+	}
+	
+	/*
+	 * empilar.
+	 * Pre: Pila no esta plena.
+	 * Post: S'han afegit elements a pila i el ultim element afegit es top.
+	 * Err: Si s'afegeixen mes elements de la capaciatat maxima.
+	*/
+	public void empilar(String e) {
+	
+		if(top < capacitat-1 ) {
+			top++;
+			pila[top] = e;
+		}
+		else {
+			System.err.println("La capacitat de la pila esta plena");
+			
+		}
+		
+		
+	}
+	
+	/*
+	 * desempilar.
+	 * Pre:P no esta buida
+	 * Post: Es retorna l'element del capdemunt, i es treu de la pila P
+	 * Err: Quan s'intenta desempilar quan no queden elements.
+	 */
+	public String desempilar() {
+		
+		if(top != -1) {
+			top--;
+			return pila[top+1];
+		}
+		else 
+			 System.err.println("No es pot treure mes unitats");
+		return null;
+		
+	}
+	
+	/*
+	 * cim.
+	 * Pre: Es comprova si hi ha algun element dins la pila.
+	 * Post: Retrona l'ultim element insertat a la pila.
+	 * Err: Retorna error quan no hi ha cap element.
+	 */
+	public String cim() {
+		if(top != -1) {
+			return pila[top];
+		}
+		else 
+			 System.err.println("No hi ha cap element");
+		return null;
+	}
+	
+	/*
+	 * estaBuida. Retorna cert si no hi ha cap element a la pila
+	 * Pre: Mira si hi ha algun element dins la pila
+	 * Post: La pila no ha canviat
+	 */
+	public boolean estaBuida() {
+		if(top == -1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public void llistar() {
+		
+		if(top !=-1) {
+			for(int i= 0; i < capacitat; i++) {
+				System.out.println(pila[i]);
+				
+			}
+		}
+		else
+			 System.err.println("No hi ha cap element per llistar");
+	}
+	
+	
+	
+
+}

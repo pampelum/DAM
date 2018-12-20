@@ -1,0 +1,121 @@
+package application;
+	
+import java.util.function.UnaryOperator;
+import javafx.application.Application;
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.control.TextFormatter;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+
+public class Main extends Application {
+	
+	//Botons
+	Button btnAceptar = new Button("Aceptar");
+	Button btnCancelar = new Button ("Cancelar");
+	
+	//Etiquetes
+	Label lblTitol = new Label();
+	Label lblAutor = new Label();
+	Label lblIsbn = new Label();
+	Label lblGenere = new Label();
+	Label lblAnypub = new Label();
+	Label lblEdicio = new Label();
+	Label lblEditora = new Label();
+	Label lblIdioma = new Label();
+	
+	//Camps de text
+	TextField txtTitol = new TextField();
+	TextField txtAutor = new TextField();
+	TextField txtIsbn = new TextField();
+	TextField txtGenere = new TextField();
+	TextField txtAnypub = new TextField();
+	TextField txtEdicio = new TextField();
+	TextField txtEditora = new TextField();
+	TextField txtIdioma = new TextField();
+	
+	
+	
+	public void start(Stage primaryStage) {
+		try {
+			BorderPane root = new BorderPane();
+			Scene scene = new Scene(root,475,300);
+			VBox esquerre = new VBox();
+			VBox dreta = new VBox();
+			HBox hbBtn = new HBox();	
+			
+			root.setLeft(esquerre);
+			root.setRight(dreta);
+			root.setBottom(hbBtn);
+			
+			//Columne esquerre
+			esquerre.getChildren().addAll(lblTitol, txtTitol, lblGenere, txtGenere,
+										 lblIdioma, txtIdioma, lblEdicio, txtEdicio);
+			
+			//Columne dreta
+			dreta.getChildren().addAll(lblAutor, txtAutor, lblAnypub, txtAnypub,
+									  lblIsbn, txtIsbn, lblEditora, txtEditora);
+			
+			//Botons
+			hbBtn.getChildren().addAll(btnAceptar, btnCancelar);
+			
+			lblTitol.setText("Titol");
+			lblAutor.setText("Autor");
+			lblIsbn.setText("ISBN");
+			lblGenere.setText("Genere");
+			lblAnypub.setText("Any de publicació");
+			lblEdicio.setText("Edició");
+			lblEditora.setText("Editora");
+			lblIdioma.setText("Idioma");
+			
+			btnAceptar.setStyle("-fx-font: 22 arial; -fx-base: blue;");
+			btnCancelar.setStyle("-fx-font: 22 arial; -fx-base: red;");
+			
+			btnAceptar.setOnMousePressed(e -> clickEnter(e));
+			
+			
+			//CSS
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			//Afegir escena
+			primaryStage.setScene(scene);
+			//Mostrar la finestra
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+/*	//Tecla Enter
+	private Object acabar(){
+		Llibre book = new Llibre(txtTitol.getText(), txtAutor.getText(), txtIsbn.getText(),
+								txtGenere.getText(), txtAnypub.getText(), txtEdicio.getText(),
+								txtEditora.getText(), txtIdioma.getText());
+		
+		
+		System.out.println(book.getAutor());
+		return null;
+	}*/
+	
+	//Click amb el ratolí
+	private Object clickEnter(MouseEvent e) {
+		Llibre book = new Llibre(txtTitol.getText(), txtAutor.getText(), txtIsbn.getText(),
+								txtGenere.getText(), txtAnypub.getText(), txtEdicio.getText(),
+								txtEditora.getText(), txtIdioma.getText());
+			
+			
+		System.out.println(book.getAutor());
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

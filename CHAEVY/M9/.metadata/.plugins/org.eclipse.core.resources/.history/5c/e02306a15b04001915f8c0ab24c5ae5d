@@ -1,0 +1,29 @@
+package interprocesscom;
+
+public class ThreadB extends ThreadA{
+
+	
+	public void run() {
+		int contador = 0;
+		
+		while(contador < 10) {
+			synchronized(this) {
+			System.out.println("Adeu txiu");
+			this.notify();
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			contador++;
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
