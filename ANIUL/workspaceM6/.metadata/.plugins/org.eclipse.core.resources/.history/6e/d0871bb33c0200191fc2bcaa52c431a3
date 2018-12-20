@@ -1,0 +1,152 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class connection {
+	public static void main(String[] args) throws SQLException {
+		int opcio;
+		Scanner sc = new Scanner(System.in);
+		
+		Connection conn = DriverManager.getConnection("jdbc:postgresql://" + "localhost" + ":" + "5432" + "/M6" + "?preferQueryMode=" + null, "postgres", "aniol");
+		
+		do
+		{
+			System.out.println("1) Afegir: \n2) Esborrar: \n3) Editar: \n4) Mostrar: \n5) Sortir: ");
+			System.out.print("Selecciona la opcio: ");
+			opcio = sc.nextInt();
+			
+			switch (opcio) {
+			case 1:
+				afegir(conn, sc);
+				break;
+				
+			case 2:
+				borrar(conn, sc);
+				break;
+			
+			case 3:
+				editar(conn,sc);
+				break;
+			default:
+				break;
+			}
+			
+			
+		}while(opcio != 0);
+		
+	}
+	
+	
+	public static void afegir(Connection conn, Scanner sc) throws SQLException
+	{
+		Statement statement = conn.createStatement();
+
+		String dni, nom, dataNaix, adreca;
+		int tel;
+		
+		
+		System.out.println("Entra el DNI: ");
+		dni = sc.next();
+		System.out.println("Entra el Nom: ");
+		sc.nextLine();
+		nom = sc.nextLine();
+		System.out.println("Entra la data de Naixament: ");
+		dataNaix = sc.next();
+		System.out.println("Entra la Adreca: ");
+		sc.nextLine();
+		adreca = sc.nextLine();
+		System.out.println("Entra el Numero de Telefon: ");
+		tel = sc.nextInt();
+		
+
+		statement.execute("INSERT INTO taula1 VALUES ('" + dni + "','" + nom + "','" + dataNaix + "','" + adreca + "','" + tel + "');");
+	}
+
+	public static void borrar(Connection conn, Scanner sc) throws SQLException
+	{
+		Statement statement = conn.createStatement();
+		String dni;
+		
+		System.out.println("Entra el DNI de la Persona a Borrar: ");
+		sc.nextLine();
+		dni = sc.nextLine();
+		
+		statement.execute("DELETE FROM taula1 WHERE dni LIKE '" + dni + "';");
+	}
+
+	public static void editar(Connection conn, Scanner sc) throws SQLException
+	{
+		Statement statement = conn.createStatement();
+		String editar,dni,nom,dataNaix,adreca, dni_editar;
+		String[] noms_camps = {"dni","nom","datanaix","adreca","telefon"};
+		String[] valors = new String[5];
+		Boolean[] editats = new Boolean[5];
+		int tel;
+		
+		
+		System.out.println("Entra el DNI del contacte a editar: ");
+		dni_editar = sc.next();
+		System.out.println("Respon amb si i no");
+		System.out.println("Vols Canviar el DNI?");
+		editar = sc.next();
+		
+		if(editar.compareTo("si") == 0)
+		{
+			System.out.println("Entra el nou DNI: ");
+			valors[0] = sc.next();
+			editats[0] = true;
+		}
+		
+		System.out.println("Vols Canviar el Nom?");
+		editar = sc.next();
+		
+		if(editar.compareTo("si") == 0)
+		{
+			System.out.println("Entra el nou Nom: ");
+			valors[1] = sc.nextLine();
+			editats[1] = true;
+		}
+		
+		System.out.println("Vols Canviar el Data de Naixament?");
+		editar = sc.next();
+		
+		if(editar.compareTo("si") == 0)
+		{
+			System.out.println("Entra la nova Data de Naixament: ");
+			valors[2] = sc.nextLine();
+			editats[2] = true;
+		}
+		
+		System.out.println("Vols Canviar la Adreca?");
+		editar = sc.next();
+		
+		if(editar.compareTo("si") == 0)
+		{
+			System.out.println("Entra la nova Data de Adreca: ");
+			valors[3] = sc.nextLine();
+			editats[3] = true;
+		}
+		
+		System.out.println("Vols Canviar el Telefon?");
+		editar = sc.next();
+		
+		if(editar.compareTo("si") == 0)
+		{
+			System.out.println("Entra el nou Telefon: ");
+			valors[4] = sc.nextLine();
+			editats[4] = true;
+		}
+		
+		for(int i = 0; i < editats.length; i++)
+		{
+			if(editats[i])
+			{
+				statement.execute("UPDATE taula1 SET " + noms_camps[i] + "='" + valors[i] + "' WHERE dni LIKE '" + dni_editar + "';");
+			}
+		}
+		
+	}
+}

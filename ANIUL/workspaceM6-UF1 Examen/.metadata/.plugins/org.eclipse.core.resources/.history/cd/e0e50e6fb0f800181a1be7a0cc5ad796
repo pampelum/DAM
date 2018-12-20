@@ -1,0 +1,26 @@
+package main;
+
+import java.util.Scanner;
+
+public class Exercici3_examen {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String ruta;
+		String entrada = "";
+	
+		System.out.print("Entra el ruta on es creara el fitxer: ");
+		ruta = sc.next();
+		
+		System.out.println("Entra 0 per deixar de entrar paraules.");
+		
+		while(entrada.compareTo("0") != 0)
+		{
+			System.out.print("Entra una paraula: ");
+			entrada = sc.next();
+		}
+
+	}
+
+}

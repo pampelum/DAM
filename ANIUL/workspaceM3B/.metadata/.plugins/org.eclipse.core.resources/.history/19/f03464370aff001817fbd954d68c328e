@@ -1,0 +1,40 @@
+package ex_456;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long t, w, h, q;
+		long total_tauleta;
+		long div = 0;
+		
+		t = sc.nextInt();
+		
+		for(int i = 0; i < t; i++)
+		{
+			div = 0;
+			w = sc.nextLong();
+			h = sc.nextLong();
+			q = sc.nextLong();
+			
+			
+			total_tauleta = w * h;
+			
+			if(total_tauleta != 0 && q != 0)
+			{
+				div = (q / total_tauleta) + 1;
+			}
+			
+			
+			System.out.println(div);
+			
+			
+		}
+		
+
+	}
+
+}

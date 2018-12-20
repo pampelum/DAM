@@ -1,0 +1,31 @@
+package Main2;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int casos, contador;
+		
+		String linia;
+		String[] nom = {"s", "t", "a", "n", "l", "e", "e"};
+		
+		Boolean torbada = false;
+		
+		
+		casos = sc.nextInt();
+		
+		for(int i = 0; i < casos; i++)
+		{
+			linia = sc.nextLine();
+			
+			for(int f = 0; f < nom.length; f++)
+			{
+				for(int u = 0; u < linia.length() && torbada != ; u++)
+				{
+					
+				}
+			}
+		}
+	}
+}

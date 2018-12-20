@@ -1,0 +1,121 @@
+package main;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercici2_examen {
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		String ruta_fitxer;
+		String lectura;
+		
+		File fitxer;
+		FileWriter fw;
+		FileReader fr;
+		BufferedReader br;
+		
+		int n_numeros;
+		int numero_guardar;
+		int suma = 0;
+		
+		//preguntar la ruta del fitxer
+		System.out.print("Entra la ruta on es creara el fitxer numeros.txt: ");
+		ruta_fitxer = sc.next() + "\\numeros.txt";
+		fitxer = new File(ruta_fitxer);
+		
+		//preguntar la quantitat els numeros que vols entrar
+		System.out.print("Entra la cuantitat de numeros que vols entrar: ");
+		n_numeros = sc.nextInt();
+		
+		if(n_numeros > 0)
+		{
+			//comprovar si el fitxer existeix o no existeis
+			if(!fitxer.exists())//si no existeix crearlo
+			{
+				fitxer.createNewFile();
+			}
+			else//si existeix borrar i crearlo aixi no hi han dades
+			{
+				fitxer.delete();
+				fitxer.createNewFile();
+			}
+			
+			//inicialitzar el FileWriter per poder escriure al fitxer
+			fw = new FileWriter(fitxer, true);
+			
+			//inicialitzar el BufferedReader per poder llegir el fitxer
+			fr = new FileReader(fitxer);
+			br = new BufferedReader(fr);
+			
+			
+			
+			
+			//preguntar i guardar els numeros
+			for(int i = 0; i < n_numeros; i++)
+			{
+				//entrar el numero
+				System.out.print("Entra un numero(Integer): ");
+				numero_guardar = sc.nextInt();
+				
+				//guardar el numero al fitxer
+				entrarNumero(fw, numero_guardar);
+				
+			}
+			
+			//calcular la suma total cirdant la funcio sumar
+			suma = sumar(br);
+			
+			//mostrar el resultat de la suma
+			System.out.println("La suma total dels numeros de larxiu es de: " + suma);
+			
+			br.close();
+			fr.close();
+			fw.close();
+		}
+		else
+		{
+			System.out.println("No es vol introduir cap numero");
+		}
+	}
+	
+	//funcio per guardar un numero al fitxer
+	public static void entrarNumero(FileWriter fw, int numero) throws IOException
+	{
+		//escriure el numero com a string
+		fw.write(String.valueOf(numero));
+		//escriure el salt de linia
+		fw.write(System.getProperty("line.separator"));
+		//fer que escrigui les coses al fitxer
+		fw.flush();
+	}
+	
+	public static int sumar(BufferedReader br) throws IOException
+	{
+		String lectura;
+		
+		int suma = 0;
+		
+		//llegir per primer cop larxiu
+		lectura = br.readLine();
+		
+		//smar tots els numeros que conte larxiu
+		do {
+			if(lectura != null)//comprovar si la escriptura el nulla o te contingut
+			{
+				//sumar el numero llegir
+				suma += Integer.parseInt(lectura);
+			}
+			
+			//tornar a llegir
+			lectura = br.readLine();
+		}while(lectura != null);//comprovar si la lectura no es nulla
+		
+		return suma;
+	}
+}

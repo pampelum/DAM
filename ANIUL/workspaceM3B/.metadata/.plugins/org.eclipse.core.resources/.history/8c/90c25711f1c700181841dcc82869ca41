@@ -1,0 +1,155 @@
+package llista;
+
+public class Llista {
+	Node first = null;
+	Node last = null;
+	
+	Llista()
+	{
+		
+	}
+	
+	//afegri un node al principi de la llista
+	public void afegirInici(Node n)
+	{
+		if(this.last == null)//comprovar si es el primer first
+		{
+			last = n;
+		}
+		n.next = this.first;
+		this.first = n;
+	}
+	
+	//
+	public void afegirFinal(Node n)
+	{
+		this.last.next = n;
+		this.last = n;
+	}
+	
+	public void afegirPosicioAbans(Node n,int p)
+	{
+		if(!llistaBuida())
+		{
+			if(p <= contarNodes())
+			{
+				if(p > 1)
+				{
+					n.next = buscarPosicioAbans(p-1).next;
+					buscarPosicioAbans(p-1).next = n;
+				}
+				else
+				{
+					if(p <= 0)//la posicio introduida es 0 o mes petit
+					{
+						System.err.println("Posicio no valida");
+					}
+					else//la posicio introduida es 1
+					{
+						System.err.println("Has de utilitzar Primera Posicio");
+					}
+				}
+			}
+			else
+			{
+				System.err.println("Posicio no valida");
+			}
+		}
+		else
+		{
+			System.err.println("Llista Buida");
+		}
+	}
+	
+	public void afegirPosicioDespres(Node n, int p)
+	{
+		if(!llistaBuida())
+		{
+			n.next = buscarPosicioDespres(p).next;
+			buscarPosicioDespres(p).next = n;
+		}
+		else
+		{
+			System.err.println("Llista Buida");
+		}
+	}
+	
+	public void mostrarNodes()
+	{
+		if(!llistaBuida())
+		{
+			Node temp = this.first;
+			
+			while(temp.next != null)
+			{
+				System.out.println(temp.name);
+				temp = temp.next;
+			}
+			
+			System.out.println(temp.name);
+		}
+		else
+		{
+			System.err.println("Llista Buida");
+		}
+	}
+	
+	public int contarNodes()
+	{
+		if(!llistaBuida())
+		{
+			Node temp = first;
+			
+			int i = 1;
+			
+			while(temp.next != null)
+			{
+				i++;
+				temp = temp.next;
+			}
+			
+			return i;
+		}
+		else
+		{
+			System.err.println("Llista Buida");
+			return 0;
+		}
+	}
+
+	public boolean llistaBuida()
+	{
+		if(first == null)
+			return true;
+		else
+			return false;
+	}
+	
+	private Node buscarPosicioAbans(int p)
+	{
+		Node temp = first;
+		int i = 1;
+		
+		while(temp.next != null && i < p)
+		{
+			temp = temp.next;
+			i++;
+		}
+		
+		return temp;
+	}
+	
+	private Node buscarPosicioDespres(int p)
+	{
+		Node temp = first;
+		int i = 1;
+		
+		while(temp.next != null && i < p)
+		{
+			temp = temp.next;
+			i++;
+		}
+		
+		return temp;
+	}
+}

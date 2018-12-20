@@ -1,0 +1,58 @@
+package main;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercici3_examen {
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		
+		String ruta;
+		String entrada = "";
+		
+		File fitxer;
+		
+		//demanra la ruta
+		System.out.print("Entra el ruta on es creara el fitxer: ");
+		ruta = sc.next() + "\\Text.txt";
+		
+		fitxer = new File(ruta);
+		
+		//comprovar si el fitxer existeix o no existeis
+		if(!fitxer.exists())//si no existeix crearlo
+		{
+			fitxer.createNewFile();
+		}
+		else//si existeix borrar i crearlo aixi no hi han dades
+		{
+			fitxer.delete();
+			fitxer.createNewFile();
+		}
+		
+		//inicialitzar el fileWriter
+		FileWriter fr = new FileWriter(fitxer, true);
+		
+		//informar de com sortir de bucle
+		System.out.println("Entra 0 per deixar de entrar paraules.");
+		
+		while(entrada.compareTo("0") != 0)
+		{
+			System.out.print("Entra text: ");
+			entrada = sc.nextLine();
+			escriure(fr,entrada);
+		}
+
+	}
+	
+	public static void escriure(FileWriter fr, String p) throws IOException
+	{
+		fr.write(p);
+		fr.write(System.getProperty("line.separator"));
+		fr.flush();
+	}
+
+}

@@ -1,0 +1,80 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class connection {
+	public static void main(String[] args) throws SQLException {
+		int opcio;
+		Scanner sc = new Scanner(System.in);
+		
+		Connection conn = DriverManager.getConnection("jdbc:postgresql://" + "localhost" + ":" + "5432" + "/M6" + "?preferQueryMode=" + null, "postgres", "aniol");
+		
+		do
+		{
+			System.out.println("1) Afegir: \n2) Esborrar: \n3) Editar: \n4) Mostrar: \n5) Sortir: ");
+			System.out.print("Selecciona la opcio: ");
+			opcio = sc.nextInt();
+			
+			switch (opcio) {
+			case 1:
+				afegir(conn, sc);
+				break;
+				
+			case 2:
+				borrar(conn, sc);
+				break;
+
+			default:
+				break;
+			}
+			
+			
+		}while(opcio != 0);
+		
+	}
+	
+	
+	public static void afegir(Connection conn, Scanner sc) throws SQLException
+	{
+		Statement statement = conn.createStatement();
+
+		String dni, nom, dataNaix, adreca;
+		int tel;
+		
+		
+		System.out.print("Entra el DNI: ");
+		sc.next();
+		dni = sc.nextLine();
+		System.out.print("Entra el Nom:");
+		sc.next();
+		nom = sc.nextLine();
+		System.out.print("Entra la data de Naixament: ");
+		sc.next();
+		dataNaix = sc.next();
+		System.out.print("Entra la Adreca: ");
+		sc.next();
+		adreca = sc.nextLine();
+		System.out.print("Entra el Numero de Telefon: ");
+		tel = sc.nextInt();
+		
+		
+		
+		statement.executeQuery("INSERT INTO taula1 VALUES ('" + dni + "','" + nom + "','" + dataNaix + "','" + adreca + "','" + tel + "');");
+	}
+
+	public static void borrar(Connection conn, Scanner sc) throws SQLException
+	{
+		Statement statement = conn.createStatement();
+		String dni;
+		
+		System.out.println("Entra el DNI de la Persona a Borrar: ");
+		sc.nextLine();
+		dni = sc.nextLine();
+		
+		statement.executeQuery("DELETE FROM taula1 WHERE dni LIKE '" + dni + "';");
+	}
+
+}

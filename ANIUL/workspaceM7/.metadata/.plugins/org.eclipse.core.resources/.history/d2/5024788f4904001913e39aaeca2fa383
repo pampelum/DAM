@@ -1,0 +1,16 @@
+package application;
+
+public class Llibre {
+	String nom, autor, editorial, data;
+	int isbn, edicio;
+	
+	Llibre(String n, String a,String edito ,String data, int isbn, int edicio)
+	{
+		this.nom = n;
+		this.autor = a;
+		this.editorial = edito;
+		this.data = data;
+		this.isbn = isbn;
+		this.edicio = edicio;
+	}
+}

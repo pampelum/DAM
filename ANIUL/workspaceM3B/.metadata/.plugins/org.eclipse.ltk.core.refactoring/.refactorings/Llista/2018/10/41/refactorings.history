@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Ordenar/src/ordenar&apos;&#x0D;&#x0A;- Original project: &apos;Llista&apos;&#x0D;&#x0A;- Destination element: &apos;Ordenar/src/ordenar&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     llista.Llista.java&#x0D;&#x0A;     llista.Node.java" description="Copy compilation units" destination="=Ordenar/src&lt;ordenar" element1="/src&lt;llista{Llista.java" element2="/src&lt;llista{Node.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1539246026045" units="2" version="1.0"/>
+</session>
